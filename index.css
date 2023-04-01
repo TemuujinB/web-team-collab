@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+}
+ul {
+    list-style: none;
+}
+h1 {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+}
+article {
+    text-align: center;
+}
+.secondary-articles{
+    display: flex;
+    justify-content: center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
+footer div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer div div {
+    display: flex;
+    flex-direction: column;
+}
+.social li {
+    display: inline;
+}
