@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style: none;
@@ -30,12 +31,13 @@ header nav ul{
 }
 .product{
     width: var(--slide_width);
+    height: 80vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .product img{
-    width: 70%;
+    height: 100%;
 }
 .product .color{
     width: 100%;
@@ -49,7 +51,7 @@ header nav ul{
     border-radius: 15px;
 }
 .information{
-    width: 30%;
+    width: 20%;
     height: 65vh;
     margin-right: 10vh;
     display: flex;
@@ -57,20 +59,59 @@ header nav ul{
     align-items: flex-start;
     flex-direction: column;
 }
-.buy{
-    width: 70vw;
+.double{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.double a{
+    width: 80%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
     background-color: black;
     color: white;
 }
+.double .shopping{
+    width: 15%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+}
 .more{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
     border: 1px solid black;
+}
+.more a{
+    color: black;
+}
+.back{
+    margin-left: 5%;
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--gray);
 }
 .likely{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-align: center;
+}
+.likely img{
+    width: 80%;
+    height: 80%;
 }
 footer nav{
     width: var(--slide_width);
