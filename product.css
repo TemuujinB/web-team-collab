@@ -1,22 +1,4 @@
-a{
-    text-decoration: none;
-    color: black;
-}
-ul{
-    list-style: none;
-}
-header{
-    width: var(--slide_width);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;    
-}
-header nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 .middle{
     width: 35%;
     font-family: 'Goldman', cursive;
@@ -98,10 +80,13 @@ header nav ul{
 .back{
     margin-left: 5%;
     width: 90%;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: center;
-    background-color: var(--gray);
+    background-color: #d9d9d9;
+    font-size: 1.5em;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .likely{
     display: flex;
@@ -112,10 +97,4 @@ header nav ul{
 .likely img{
     width: 80%;
     height: 80%;
-}
-footer nav{
-    width: var(--slide_width);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
