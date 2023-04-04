@@ -1,16 +1,3 @@
-
-.middle{
-    width: 35%;
-    font-family: 'Goldman', cursive;
-    font-family: 'Merriweather', serif;
-    font-family: 'Nunito', sans-serif;
-}
-.right{
-    width: 15%;
-}
-.left{
-    width: 15%;
-}
 .product{
     width: var(--slide_width);
     height: 80vh;
@@ -83,7 +70,7 @@
     height: 80vh;
     display: flex;
     align-items: center;
-    background-color: #d9d9d9;
+    background-color: var(--gray);
     font-size: 1.5em;
     margin-top: 10vh;
     margin-bottom: 10vh;
