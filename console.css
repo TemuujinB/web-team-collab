@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.console-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+.intro-tag {
+    text-align: center;
+}
+.article-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.article-content-center {
+    text-align: center;
+    background-color: aliceblue;
+    height: 400px;
+}
+.new-consoles {
+    width: 33%;
+}
+.hand-held-consoles {
+    width: 100%;
+}
+.old-consoles {
+    width: 50%;
+}
