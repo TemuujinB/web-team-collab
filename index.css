@@ -15,12 +15,31 @@ h1 {
     margin: -1px;
     overflow: hidden;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+main section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
 article {
     text-align: center;
+    background-color: aliceblue;
+    height: 400px;
 }
-.secondary-articles{
+.article-wrapper {
     display: flex;
     justify-content: center;
+    column-gap: 10px;
+}
+.primary-articles {
+    width: 100%;
+}
+.secondary-articles {
+    width: 50%;
 }
 ul {
     margin: 0;

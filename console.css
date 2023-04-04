@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -8,8 +12,39 @@ header li {
 ul {
     list-style: none;
 }
+main nav ul {
+    display: flex;
+    justify-content: center;
+}
+main nav li {
+    display: inline;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+h1, h2 {
+    text-align: center;
+}
 article {
     text-align: center;
+    background-color: aliceblue;
+    height: 400px;
+}
+.article-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.new-consoles {
+    width: 33%;
+}
+.hand-held-consoles {
+    width: 100%;
+}
+.old-consoles {
+    width: 50%;
 }
 ul {
     margin: 0;
