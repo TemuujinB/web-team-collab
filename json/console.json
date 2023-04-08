@@ -1,0 +1,28 @@
+[{
+	"name": "Playstation5 Console",
+	"detail": "The PS5™ console unleashes new gaming possibilities that you never anticipated. Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D audio, and an all-new generation of incredible PlayStation® games.",
+	"price": "499.99",
+	"type": "consoles",
+	"image": "/img/console-1.webp",
+	"color": ""
+},{
+	"name": "Playstation5 Digital Edition - God of War",
+	"detail": "Embark on an epic and heartfelt journey alongside Kratos and Atreus with the PlayStation®5 Digital Edition – God of War™ Ragnarök Bundle. Enjoy God of War Ragnarök with PS5 innovations including 4K and HDR visuals*, DualSense™ wireless controller adaptive triggers and haptic feedback and Tempest 3D AudioTech**.",
+	"price": "459.99",
+	"type": "consoles",
+	"image": {
+		"image1": "/img/console-2.webp",
+		"image2": "/img/console-3.webp"
+	},
+	"color": {
+		"color1": "",
+		"color2": ""
+	}
+},{
+	"name": "Playstation5 Digital Edition",
+	"detail": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D audio, and an all-new generation of incredible PlayStation® games. PS5™ Digital Edition is an all-digital version of the PS5™ console with no disc drive. Sign into your account for PlayStation™Network and go to PlayStation™Store to buy and download games.",
+	"price": "399.99",
+	"type": "consoles",
+	"image": "/img/console-4.webp",
+	"color": "White"
+}]

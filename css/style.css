@@ -2,3 +2,6 @@
 body{
     font-family: Inter;
 }
+button{
+    text-decoration: none;
+}
