@@ -1,0 +1,320 @@
+{
+	"product": [
+	  {
+		"consoles": [
+		  {
+			"name": "Playstation5 Console",
+			"detail": "The PS5™ console unleashes new gaming possibilities that you never anticipated. Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D audio, and an all-new generation of incredible PlayStation® games.",
+			"price": "499.99",
+			"type": "consoles",
+			"image": "/img/console-1.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Playstation5 Digital Edition - God of War",
+			"detail": "Embark on an epic and heartfelt journey alongside Kratos and Atreus with the PlayStation®5 Digital Edition – God of War™ Ragnarök Bundle. Enjoy God of War Ragnarök with PS5 innovations including 4K and HDR visuals*, DualSense™ wireless controller adaptive triggers and haptic feedback and Tempest 3D AudioTech**.",
+			"price": "459.99",
+			"type": "consoles",
+			"image": "/img/console-2.webp",
+			"color1": ""
+		  },
+		  {
+			"name": "Playstation5 Digital Edition",
+			"detail": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D audio, and an all-new generation of incredible PlayStation® games. PS5™ Digital Edition is an all-digital version of the PS5™ console with no disc drive. Sign into your account for PlayStation™Network and go to PlayStation™Store to buy and download games.",
+			"price": "399.99",
+			"type": "consoles",
+			"image": "/img/console-4.webp",
+			"color": "White"
+		  }
+		]
+	  },
+	  {
+		"games": [
+		  {
+			"name": "MLB The Show 23-PS5",
+			"detail": "MLB® The Show™ 23 gets you closer than ever to living your Baseball dreams on the diamond. Shock the game and Own The Show™ with your favorite players, your favorite rivalries, and all your favorite MLB® moments.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-1.webp",
+			"color": ""
+		  },
+		  {
+			"name": "MLB® The Show™ 23: The Captain Edition – PS4™ with PS5™ Entitlement",
+			"detail": "MLB® The Show™ 23 gets you closer than ever to living your Baseball dreams on the diamond. Shock the game and Own The Show™ with your favorite players, your favorite rivalries, and all your favorite MLB® moments.",
+			"price": "99.99",
+			"type": "game",
+			"image": "/img/game-2.webp",
+			"color": ""
+		  },
+		  {
+			"name": "God of War™ Ragnarok Launch Edition – PS5",
+			"detail": "Set out on an epic and unflinching journey as Kratos and Atreus struggle with holding on and letting go. Witness the changing dynamic of their relationship as they prepare for war; Atreus hungers for knowledge to help him grasp the prophecy of “Loki”, as Kratos struggles to free himself from the past and be the father his son needs.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-3.webp",
+			"color": ""
+		  },
+		  {
+			"name": "God of War™ Ragnarok Collector’s Edition – PS5 & PS4",
+			"detail": "Set out on an epic and unflinching journey as Kratos and Atreus struggle with holding on and letting go. Witness the changing dynamic of their relationship as they prepare for war; Atreus hungers for knowledge to help him grasp the prophecy of “Loki”, as Kratos struggles to free himself from the past and be the father his son needs. All the while, the eyes of Asgard watch their every move…",
+			"price": "199.99",
+			"type": "game",
+			"image": "/img/game-4.webp",
+			"color": ""
+		  },
+		  {
+			"name": "The Last of Us™ Part I - PS5",
+			"detail": "Experience the emotional storytelling and unforgettable characters of Joel and Ellie in The Last of Us, winner of over 200 Game of the Year awards and now rebuilt for PlayStation®5. Enjoy a total overhaul of the original experience, faithfully reproduced but incorporating modernized gameplay, improved controls and expanded accessibility options. Plus, feel immersed with improved effects and enhanced exploration and combat. The Last of Us™ Part I includes the complete The Last of Us single-player story (PS5™) and celebrated prequel chapter, Left Behind.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-5.webp",
+			"color": ""
+		  },
+		  {
+			"name": "MLB® The Show™ 22 - PS5",
+			"detail": "Every pitch. Every hit. Every win. Make your mark and Own The Show in the ultimate MLB® experience.",
+			"price": "29.99",
+			"type": "game",
+			"image": "/img/game-6.webp",
+			"color": ""
+		  },
+		  {
+			"name": "UNCHARTED™: Legacy of Thieves Collection - PS5",
+			"detail": "Play as Nathan Drake and Chloe Frazer in their own standalone adventures as they are forced to confront their pasts and forge their own legacies. The UNCHARTED™: Legacy of Thieves Collection includes the critically acclaimed single-player stories from both UNCHARTED™ 4: A Thief’s End and UNCHARTED™: The Lost Legacy, remastered for the PS5™ console.",
+			"price": "49.99",
+			"type": "game",
+			"image": "/img/game-7.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Gran Turismo 7–25th Anniversary Edition - PS5 & PS4",
+			"detail": "Gran Turismo® 7 brings together the very best features of the Real Driving Simulator.",
+			"price": "89.99",
+			"type": "game",
+			"image": "/img/game-8.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Horizon Forbidden West™ Launch Edition - PS5",
+			"detail": "Join Aloy as she braves the Forbidden West – a majestic but dangerous frontier that conceals mysterious new threats. Explore distant lands, fight bigger and more awe-inspiring machines, and encounter astonishing new tribes as you return to the far-future, post-apocalyptic world of Horizon.  ",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-9.webp",
+			"color": ""
+		  },
+		  {
+			"name": "DEATH STRANDING™ Director's Cut - PS5",
+			"detail": "From legendary game creator Hideo Kojima comes a genre-defying experience, now expanded and remastered for the PlayStation®5 console in this definitive Director’s Cut. In the future, a mysterious event known as the DEATH STRANDING has opened a doorway between the living and the dead, leading to grotesque creatures from the afterlife roaming the fallen world marred by a desolate society.",
+			"price": "49.99",
+			"type": "game",
+			"image": "/img/game-10.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Ghost of Tsushima™ Director's Cut - PS5",
+			"detail": "Experience the expanded Ghost of Tsushima DIRECTOR’S CUT, featuring all additional content released to date. Forge a new path and wage an unconventional war for the freedom of Tsushima and explore a new story on Iki Island.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-11.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Destruction AllStars - PS5",
+			"detail": "The roar of the crowd… the growl of the engines… the crunch of metal… stars and cars collide in the global phenomenon Destruction AllStars.",
+			"price": "19.99",
+			"type": "game",
+			"image": "/img/game-12.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Ratchet & Clank: Rift Apart - PS5",
+			"detail": "Blast your way through an interdimensional adventure with Ratchet and Clank.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-13.webp",
+			"color": ""
+		  },
+		  {
+			"name": "The Nioh Collection - PS5",
+			"detail": "Discover the complete Nioh saga with all six major expansions included. Battle the yokai threat at a targeted 120fps (requires 120Hz display) with ultra-fast load times.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-14.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Returnal - PS5",
+			"detail": "Break the cycle. Through relentless roguelike gameplay, you’ll discover that just as the planet changes with every cycle, so do the items at your disposal. Every loop offers new combinations, forcing you to push your boundaries and approach combat with a different strategy each time.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-15.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Marvel's Spider-Man: Miles Morales Ultimate Edition - PS5",
+			"detail": "Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-16.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Marvel's Spider-Man: Miles Morales - PS5",
+			"detail": "Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.",
+			"price": "49.99",
+			"type": "game",
+			"image": "/img/game-17.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Demon's Souls - PS5",
+			"detail": "From PlayStation Studios and Bluepoint Games comes a remake of the PlayStation classic, Demon’s Souls™. Entirely rebuilt from the ground up and masterfully enhanced, this remake invites you to experience the unsettling story and ruthless combat of Demon’s Souls in stunning visual quality with incredible performance.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-18.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Sackboy: A Big Adventure - PS5",
+			"detail": "Take Sackboy on an epic 3D platforming adventure with your friends.  Face thrilling, unpredictable challenges as you explore distinctive hand-crafted lands through deeply immersive and expressive controls.",
+			"price": "59.99",
+			"type": "game",
+			"image": "/img/game-19.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Gran Turismo 7 - PS5",
+			"detail": "Gran Turismo® 7 brings together the very best features of the Real Driving Simulator.",
+			"price": "69.99",
+			"type": "game",
+			"image": "/img/game-20.webp",
+			"color": ""
+		  }
+		]
+	  },
+	  {
+		"accessories": [
+		  {
+			"name": "DualSense Edge wireless controller",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-1.webp",
+			"color": "white"
+		  },
+		  {
+			"name": "DualSense Charging Station",
+			"detail": "Charge up to two DualSense™ or DualSense Edge™ wireless controllers at the same time without having to connect them to your PlayStation®5 console.",
+			"price": "79.99",
+			"type": "accessories",
+			"image": "/img/accessory-2.webp",
+			"color": "White"
+		  },{
+			"name": "DualSense Charging Station",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-10.webp",
+			"color": "Gray camouflage"
+		  },{
+			"name": "DualSense Charging Station",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-9.webp",
+			"color": "Midnight black"
+		  },{
+			"name": "DualSense Charging Station",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-11.webp",
+			"color": "Hogwarts Legacy Limited Edition"
+		  },{
+			"name": "DualSense Charging Station",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-12.webp",
+			"color": "Cosmic Red"
+		  },{
+			"name": "DualSense Charging Station",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-13.webp",
+			"color": "Starlight blue"
+		  },{
+			"name": "DualSense Charging Station",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-14.webp",
+			"color": "Nova pink"
+		  },{
+			"name": "DualSense Charging Station",
+			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+			"price": "199.99",
+			"type": "accessories",
+			"image": "/img/accessory-15.webp",
+			"color": "Galactic Purple"
+		  },{
+			"name": "Sony 27 Gaming Monitor",
+			"detail": "React faster with super smooth 240Hz refresh rate and be a step ahead of your competitors. Fill your games with a wide range of rich, vibrant colors with DisplayHDR™ 400 certification and over 99% sRGB color spectrum coverage. With support for Nvidia® G-SYNC®1 and HDMI 2.1 VRR2 compatibility, the INZONE™ M3 is built for next-level gaming.",
+			"price": "499.99",
+			"type": "accessories",
+			"image": "/img/accessory-3.webp",
+			"color": ""
+		  },
+		  {
+			"name": "PULSE 3D Wireless Headset - Midnight Black",
+			"detail": "Inject a stylish urban aesthetic into your PS5™ gaming with this Gray Camouflage headset  – fine-tuned for 3D Audio on PS5™ consoles.*",
+			"price": "99.99",
+			"type": "accessories",
+			"image": "/img/accessory-4.webp",
+			"color": ""
+		  },
+		  {
+			"name": "HD Camera",
+			"detail": "With dual lenses for 1080p capture and a built-in stand, the HD camera works seamlessly with the PlayStation®5 background removal tools to place you in the spotlight.",
+			"price": "59.99",
+			"type": "accessories",
+			"image": "/img/accessory-5.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Media Remote",
+			"detail": "Easily navigate entertainment* on your PlayStation®5 console with an intuitive layout featuring media controls. Streamline your set-up with the ability to power on your PS5™ console directly and alter the volume and power settings of compatible televisions**.",
+			"price": "29.99",
+			"type": "accessories",
+			"image": "/img/accessory-6.webp",
+			"color": "White"
+		  },
+		  {
+			"name": "Magma Red DUALSHOCK",
+			"detail": "Scorch the competition with the Magma Red DUALSHOCK®4 wireless controller for PS4™ consoles. Buy the iconic, official PlayStation®4 controller – available in a range of eye-catching colors, including fiery Magma Red. With an extra controller you can style your set-up and share the fun with friends in a wide range of couch co-op games.",
+			"price": "64.99",
+			"type": "accessories",
+			"image": "/img/accessory-7.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Playstation Move Motion Controller (2 pack)",
+			"detail": "Combine PlayStation®VR with the PlayStation®Move Motion Controllers for an even more immersive and extraordinary gaming experience. With advanced motion sensors and ergonomic design, you can wield anything from your favorite sword to cooking spatulas with ease.",
+			"price": "99.99",
+			"type": "accessories",
+			"image": "/img/accessory-8.webp",
+			"color": ""
+		  },
+		  {
+			"name": "Playstation Camera",
+			"detail": "The PlayStation®Camera for PlayStation®4 uses depth-sensing 3D technology to accurately track you, your DUALSHOCK®4 and PlayStation® Move controllers to provide an extraordinary gaming experience. You can also share gameplay livestreams, or combine with PlayStation®VR to experience a new level of gaming.",
+			"price": "59.99",
+			"type": "accessories",
+			"image": "/img/accessory-16.webp",
+			"color": "black"
+		  }
+		]
+	  }
+	]
+  }
