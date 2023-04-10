@@ -1,4 +1,31 @@
 [{
+	"name": "Playstation5 Console",
+	"detail": "The PS5™ console unleashes new gaming possibilities that you never anticipated. Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D audio, and an all-new generation of incredible PlayStation® games.",
+	"price": "499.99",
+	"type": "consoles",
+	"image": "/img/console-1.webp",
+	"color": ""
+},{
+	"name": "Playstation5 Digital Edition - God of War",
+	"detail": "Embark on an epic and heartfelt journey alongside Kratos and Atreus with the PlayStation®5 Digital Edition – God of War™ Ragnarök Bundle. Enjoy God of War Ragnarök with PS5 innovations including 4K and HDR visuals*, DualSense™ wireless controller adaptive triggers and haptic feedback and Tempest 3D AudioTech**.",
+	"price": "459.99",
+	"type": "consoles",
+	"image": {
+		"image1": "/img/console-2.webp",
+		"image2": "/img/console-3.webp"
+	},
+	"color": {
+		"color1": "",
+		"color2": ""
+	}
+},{
+	"name": "Playstation5 Digital Edition",
+	"detail": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D audio, and an all-new generation of incredible PlayStation® games. PS5™ Digital Edition is an all-digital version of the PS5™ console with no disc drive. Sign into your account for PlayStation™Network and go to PlayStation™Store to buy and download games.",
+	"price": "399.99",
+	"type": "consoles",
+	"image": "/img/console-4.webp",
+	"color": "White"
+},{
 	"name": "MLB The Show 23-PS5",
 	"detail": "MLB® The Show™ 23 gets you closer than ever to living your Baseball dreams on the diamond. Shock the game and Own The Show™ with your favorite players, your favorite rivalries, and all your favorite MLB® moments.",
 	"price": "69.99",
@@ -138,4 +165,86 @@
 	"type": "game",
 	"image": "/img/game-20.webp",
 	"color": ""
+},{
+	"name": "DualSense Edge wireless controller",
+	"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
+	"price": "199.99",
+	"type": "accessories",
+	"image": "/img/accessory-1.webp",
+	"color": "white"
+},{
+	"name": "DualSense Charging Station",
+	"detail": "Charge up to two DualSense™ or DualSense Edge™ wireless controllers at the same time without having to connect them to your PlayStation®5 console.",
+	"price": "79.99",
+	"type": "accessories",
+	"image": {
+		"image1": "/img/accessory-2.webp",
+		"image2": "/img/accessory-9.webp",
+		"image3": "/img/accessory-10.webp",
+		"image4": "/img/accessory-11.webp",
+		"image5": "/img/accessory-12.webp",
+		"image6": "/img/accessory-13.webp",
+		"image7": "/img/accessory-14.webp",
+		"image8": "/img/accessory-15.webp"
+	},
+	"color": {
+		"color1": "White",
+		"color2": "Midnight black",
+		"color3": "Gray camouflage",
+		"color4": "Hogwarts Legacy Limited Edition",
+		"color5": "Cosmic Red",
+		"color6": "Starlight blue",
+		"color7": "Nova pink",
+		"color8": "Galactic Purple"
+	}
+},{
+	"name": "Sony 27 Gaming Monitor",
+	"detail": "React faster with super smooth 240Hz refresh rate and be a step ahead of your competitors. Fill your games with a wide range of rich, vibrant colors with DisplayHDR™ 400 certification and over 99% sRGB color spectrum coverage. With support for Nvidia® G-SYNC®1 and HDMI 2.1 VRR2 compatibility, the INZONE™ M3 is built for next-level gaming.",
+	"price": "499.99",
+	"type": "accessories",
+	"image": "/img/accessory-3.webp",
+	"color": ""
+
+},{
+	"name": "PULSE 3D Wireless Headset - Midnight Black",
+	"detail": "Inject a stylish urban aesthetic into your PS5™ gaming with this Gray Camouflage headset  – fine-tuned for 3D Audio on PS5™ consoles.*",
+	"price": "99.99",
+	"type": "accessories",
+	"image": "/img/accessory-4.webp",
+	"color": ""
+},{
+	"name": "HD Camera",
+	"detail": "With dual lenses for 1080p capture and a built-in stand, the HD camera works seamlessly with the PlayStation®5 background removal tools to place you in the spotlight.",
+	"price": "59.99",
+	"type": "accessories",
+	"image": "/img/accessory-5.webp",
+	"color": ""
+},{
+	"name": "Media Remote",
+	"detail": "Easily navigate entertainment* on your PlayStation®5 console with an intuitive layout featuring media controls. Streamline your set-up with the ability to power on your PS5™ console directly and alter the volume and power settings of compatible televisions**.",
+	"price": "29.99",
+	"type": "accessories",
+	"image": "/img/accessory-6.webp",
+	"color": "White"
+},{
+	"name": "Magma Red DUALSHOCK",
+	"detail": "Scorch the competition with the Magma Red DUALSHOCK®4 wireless controller for PS4™ consoles. Buy the iconic, official PlayStation®4 controller – available in a range of eye-catching colors, including fiery Magma Red. With an extra controller you can style your set-up and share the fun with friends in a wide range of couch co-op games.",
+	"price": "64.99",
+	"type": "accessories",
+	"image": "/img/accessory-7.webp",
+	"color": ""
+},{
+	"name": "Playstation Move Motion Controller (2 pack)",
+	"detail": "Combine PlayStation®VR with the PlayStation®Move Motion Controllers for an even more immersive and extraordinary gaming experience. With advanced motion sensors and ergonomic design, you can wield anything from your favorite sword to cooking spatulas with ease.",
+	"price": "99.99",
+	"type": "accessories",
+	"image" : "/img/accessory-8.webp",
+	"color": ""
+},{
+	"name": "Playstation Camera",
+	"detail": "The PlayStation®Camera for PlayStation®4 uses depth-sensing 3D technology to accurately track you, your DUALSHOCK®4 and PlayStation® Move controllers to provide an extraordinary gaming experience. You can also share gameplay livestreams, or combine with PlayStation®VR to experience a new level of gaming.",
+	"price": "59.99",
+	"type": "accessories",
+	"image": "/img/accessory-16.webp",
+	"color": "black"
 }]
