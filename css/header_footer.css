@@ -6,7 +6,6 @@ ul{
     list-style: none;
 }
 header{
-    width: var(--slide_width);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,12 +24,19 @@ font-weight: 400;
 font-size: 1.3em;
 line-height: 43px;
 }
-header .middle{
+.middle{
+    width: 35%;
     font-family: 'Goldman', cursive;
-    font-size: 1.2em;;
+    font-size: 1.2em;
+}
+.right{
+    width: 15%;
+}
+.left{
+    width: 15%;
 }
 footer{
-    background-color: #f5f5f7;
+    background-color: var(--footer_background);
 }
 footer i{
     width: 5vh;
@@ -45,7 +51,6 @@ footer i{
     align-items: center;
 }
 footer nav{
-    width: var(--slide_width);
     display: flex;
     flex-direction: row;
     justify-content: space-around;

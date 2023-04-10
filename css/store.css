@@ -1,0 +1,59 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: white;
+    height: 3vh;
+    width: 6vw;
+}
+.img{
+    width: 100%;
+    height: 10vh;
+}
+.console_list{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.console_list img{
+    width: 12vw;
+    height: 30vh;
+}
+.accessories_list{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.accessories_list img{
+    width: 12vw;
+    height: 30vh;
+}
+.games_list{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.games_list img{
+    width: 12vw;
+    height: 30vh;
+}
+.oneline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+}
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.price{
+    opacity: 0.5;
+}
