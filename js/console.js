@@ -1,4 +1,4 @@
-fetch('console.json')
+fetch('../json/console.json')
     .then(response => response.json())
     .then(data => {
         const articleElements = document.getElementsByTagName('article');
