@@ -1,0 +1,43 @@
+{
+	"articles": [
+		{
+			"title": "Playstation 5",
+			"subtitle": "Play has no Limits",
+			"buyLink": {
+				"href": ".pages/product.html",
+				"text": "Buy"
+			},
+			"learnMoreLink": {
+				"href": ".pages/advertising.html",
+				"text": "Learn More"
+			},
+			"style": "background-image: url('image1.jpg');"
+		},
+		{
+			"title": "Xbox Series X",
+			"subtitle": "The fastest, most powerful Xbox",
+			"buyLink": {
+				"href": ".pages/product.html",
+				"text": "Buy"
+			},
+			"learnMoreLink": {
+				"href": ".pages/advetising.html",
+				"text": "Learn More"
+			},
+			"style": "background-image: url('image2.jpg');"
+		},
+		{
+			"title": "Xbox Series S",
+			"subtitle": "Simply next-gen",
+			"buyLink": {
+				"href": ".pages/product.html",
+				"text": "Buy"
+			},
+			"learnMoreLink": {
+				"href": ".pages/advetising.html",
+				"text": "Learn More"
+			},
+			"style": "background-image: url('image3.jpg');"
+		}
+	]
+}
