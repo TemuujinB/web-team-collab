@@ -8,7 +8,7 @@ fetch('../json/console.json')
             const article = data.articles[i];
             articleElement.innerHTML = `
                 <h2>${article.title}</h2>
-                <h3>${article.subtitlee}</h3>
+                <h3>${article.subtitle}</h3>
                 <div>
                     <a href="${article.buyLink.href}">${article.buyLink.text}</a>
                     <a href="${article.learnMoreLink.href}">${article.learnMoreLink.text}</a>
