@@ -40,7 +40,7 @@ class Product{
                 <li><img src="${this.image}" alt=""></li>
                 <li class="name">${this.name}</li>
                 <li class="oneline">
-                    <a class="price">${this.price}</a>
+                    <p class="price">${this.price}</p>
                     <button>BUY</button>
                 </li>
             </nav>
