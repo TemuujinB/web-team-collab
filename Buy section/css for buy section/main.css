@@ -1,0 +1,193 @@
+h1{
+    position: absolute;
+    width: 519px;
+    height: 44px;
+    left: 141px;
+    top: 151px;
+
+    /* Heading 03 */
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+
+    letter-spacing: -1.5px;
+
+    color: #000000;
+}
+
+    #payment{
+    /* Төлбөрөө төлөх үү? Үргэлжлүүлэн худалдан авалт хийх */
+    position: absolute;
+    width: 485px;
+    height: 26px;
+    left: 145px;
+    top: 206px;
+
+    /* Paragraph 03 */
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: -0.2px;
+
+    color: #000000;
+}
+
+#Pimg{
+    width: 129px;
+    height: 133px;
+    
+    background: #C4C4C4;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#coupon{
+    position: absolute;
+    width: 398px;
+    height: 40px;
+    left: 793px;
+    top: 265px;
+}
+#tag1{
+    position: absolute;
+    width: 519px;
+    height: 30px;
+    left: 796px;
+    top: 206px;
+
+/* Heading 04 */
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+/* identical to box height, or 136% */
+
+    letter-spacing: -0.55px;
+
+    color: #000000;
+}
+
+#price1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 402px;
+    height: 96px;
+    left: 792px;
+    top: 332px;
+}
+
+#btn{
+    position: absolute;
+    width: 397px;
+    height: 50px;
+    left: 792px;
+    top: 464px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0px 50px;  
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header .left{
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+font-weight: 400;
+font-size: 1.3em;
+line-height: 43px;
+}
+.middle{
+    width: 35%;
+    font-family: 'Goldman', cursive;
+    font-size: 1.2em;
+}
+.right{
+    width: 15%;
+}
+.left{
+    width: 15%;
+}
+footer{
+    background-color: var(--footer_background);     
+}
+footer i{
+    width: 5vh;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.add_num{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
