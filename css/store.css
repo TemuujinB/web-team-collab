@@ -1,5 +1,6 @@
+
 main{
-    width: 100%;
+    width: var(--slide_width);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,8 +29,8 @@ button{
     justify-content: center;
 }
 #consoles_list img{
-    width: 12vw;
-    height: 30vh;
+    width: var(--console_img_width);
+    height: var(--console_img_height);
 }
 #accessories_list{
     width: var(--slide_width);
@@ -38,8 +39,8 @@ button{
     justify-content: center;
 }
 #accessories_list img{
-    width: 12vw;
-    height: 30vh;
+    width: var(--console_img_width);
+    height: var(--console_img_height);
 }
 #games_list{
     width: var(--slide_width);
@@ -48,8 +49,8 @@ button{
     justify-content: center;
 }
 #games_list img{
-    width: 12vw;
-    height: 30vh;
+    width: var(--console_img_width);
+    height: var(--console_img_height);
 }
 .oneline{
     display: flex;

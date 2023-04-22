@@ -32,6 +32,7 @@ class Product{
         this.name = product.name;
         this.price = product.price;
         this.type = product.type;
+        
     }
 
     Render(){
@@ -41,7 +42,7 @@ class Product{
                 <li class="name">${this.name}</li>
                 <li class="oneline">
                     <p class="price">${this.price}</p>
-                    <button>BUY</button>
+                    <button id="buybtn">BUY</button>
                 </li>
             </nav>
         </article> `
@@ -62,4 +63,3 @@ fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
         document.getElementById("consoles_list").innerHTML = consoleList;
         document.getElementById("accessories_list").innerHTML = accessoriesList;
 })
-                    
