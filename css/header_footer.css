@@ -4,13 +4,21 @@ a{
 }
 ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 header{
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;  
-    padding: 0px 50px;  
+    padding: 10px 50px;  
+    position: sticky;
+    left: 0;
+    top: 0;
+    border-bottom: 5px solid purple;
+    z-index: 10;
 }
 header nav ul{
     display: flex;
