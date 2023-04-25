@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgb(246, 247, 249);
 }
 main{
     width: var(--slide_width);
@@ -28,7 +29,8 @@ button{
     display: flex;
     flex-direction: row;
     /* justify-content: space-evenly; */
-    justify-content: center;
+    justify-content: space-evenly;
+    /*column-gap: 50px;*/
 }
 #consoles_list img{
     width: var(--console_img_width);
@@ -38,7 +40,7 @@ button{
     width: var(--slide_width);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #accessories_list img{
     width: var(--console_img_width);
@@ -48,7 +50,7 @@ button{
     width: var(--slide_width);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #games_list img{
     width: var(--console_img_width);
