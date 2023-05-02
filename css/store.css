@@ -63,8 +63,17 @@ button{
     text-align: start;
     align-items: center;
     margin-bottom: 1rem;
-    margin-left: 20px;
-    margin-right: 20px;
+}
+.oneline #buybtn{
+    height: 30px;
+    width: 70%;
+}
+.oneline #addcart{
+    height: 30px;
+    width: 25%;
+}
+.oneline button:hover{
+    box-shadow: 1px 1px 5px 5px rgb(194, 92, 194);
 }
 .name{
     font-weight: bold;
