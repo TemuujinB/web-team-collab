@@ -9,4 +9,8 @@
     --console_img_width: 14vw;
     --console_img_height: 14vw;
     --purple: #8A00FC;
+    --main_font: Play;
+    /*<link rel="preconnect" href="https://fonts.googleapis.com">*/
+    /*<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>*/
+    /*<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">*/
 }
