@@ -40,12 +40,19 @@ class Product{
             <nav>
                 <li><img src="${this.image}" alt=""></li>
                 <li class="name">${this.name}</li>
+                <p class="price">${this.price}</p>
                 <li class="oneline">
-                    <p class="price">${this.price}</p>
                     <button id="buybtn">BUY</button>
+                    <button role="button" id="addcart"><i class="fa-solid fa-cart-plus"></i></button>
                 </li>
             </nav>
         </article> `
+    }
+    connectedCallback() {
+        this.querySelector("button").addEventListener("click", () => {
+            const myCart = document.querySelector("sags");
+            myCart.AddToCart(this);
+        })
     }
 }
 

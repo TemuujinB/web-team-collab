@@ -8,7 +8,8 @@
 			"price": "499.99",
 			"type": "consoles",
 			"image": "../img/console-1.webp",
-			"color": ""
+			"color": "",
+			"id":"console"
 		  },
 		  {
 			"name": "Playstation5 Digital Edition",
@@ -16,7 +17,8 @@
 			"price": "399.99",
 			"type": "consoles",
 			"image": "../img/console-4.webp",
-			"color": "White"
+			"color": "White",
+			"id":"console2"
 		  },
 		  {
 			"name": "PlayStation®4 1TB Console",
@@ -24,7 +26,8 @@
 			"price": "299.99",
 			"type": "consoles",
 			"image": "../img/console-5.webp",
-			"color": "Black"
+			"color": "Black",
+			"id":"console3"
 		  },
 		  {
 			"name": "Diablo IV Bundle",
@@ -32,7 +35,8 @@
 			"price": "559.99",
 			"type": "consoles",
 			"image": "../img/console-6.webp",
-			"color": "Black"
+			"color": "Black",
+			"id":"console4"
 		  },
 		  {
 			"name": "Xbox Series X-Diablo IV Bundle",
@@ -40,7 +44,8 @@
 			"price": "559.99",
 			"type": "accessories",
 			"image": "../img/console-7.webp",
-			"color": "black"
+			"color": "black",
+			"id":"console5"
 		  },
 		  {
 			"name": "Xbox Series S (Certified Refurbished)",
@@ -48,7 +53,8 @@
 			"price": "249.99",
 			"type": "accessories",
 			"image": "../img/console-8.webp",
-			"color": "White"
+			"color": "White",
+			"id":"console6"
 		  },
 		  {
 			"name": "Forza Horizon 5 bundle",
@@ -56,7 +62,8 @@
 			"price": "559.99",
 			"type": "accessories",
 			"image": "../img/console-9.webp",
-			"color": "black"
+			"color": "black",
+			"id":"console7"
 		  },
 		  {
 			"name": "Gilded Hunter Bundle",
@@ -64,7 +71,8 @@
 			"price": "299.99",
 			"type": "accessories",
 			"image": "../img/console-10.webp",
-			"color": "White"
+			"color": "White",
+			"id":"console8"
 		  }
 		]
 	  },
@@ -76,7 +84,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-1.webp",
-			"color": ""
+			"color": "",
+			"id": "game1"
 		  },
 		  {
 			"name": "The Captain Edition",
@@ -84,7 +93,8 @@
 			"price": "99.99",
 			"type": "game",
 			"image": "../img/game-2.webp",
-			"color": ""
+			"color": "",
+			"id": "game2"
 		  },
 		  {
 			"name": "Ragnarok Launch Edition-PS5",
@@ -92,7 +102,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-3.webp",
-			"color": ""
+			"color": "",
+			"id": "game3"
 		  },
 		  {
 			"name": "Ragnarok Collector’s Edition – PS5 & PS4",
@@ -100,7 +111,8 @@
 			"price": "199.99",
 			"type": "game",
 			"image": "../img/game-4.webp",
-			"color": ""
+			"color": "",
+			"id": "game4"
 		  },
 		  {
 			"name": "The Last of Us™ Part I - PS5",
@@ -108,7 +120,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-5.webp",
-			"color": ""
+			"color": "",
+			"id": "game5"
 		  },
 		  {
 			"name": "MLB® The Show™ 22 - PS5",
@@ -116,7 +129,8 @@
 			"price": "29.99",
 			"type": "game",
 			"image": "../img/game-6.webp",
-			"color": ""
+			"color": "",
+			"id": "game6"
 		  },
 		  {
 			"name": "UNCHARTED™: Legacy of Thieves Collection - PS5",
@@ -124,7 +138,8 @@
 			"price": "49.99",
 			"type": "game",
 			"image": "../img/game-7.webp",
-			"color": ""
+			"color": "",
+			"id": "game7"
 		  },
 		  {
 			"name": "Gran Turismo 7–25th Anniversary Edition - PS5 & PS4",
@@ -132,7 +147,8 @@
 			"price": "89.99",
 			"type": "game",
 			"image": "../img/game-8.webp",
-			"color": ""
+			"color": "",
+			"id": "game8"
 		  },
 		  {
 			"name": "Horizon Forbidden West™ Launch Edition - PS5",
@@ -140,7 +156,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-9.webp",
-			"color": ""
+			"color": "",
+			"id": "game9"
 		  },
 		  {
 			"name": "DEATH STRANDING™ Director's Cut - PS5",
@@ -148,7 +165,8 @@
 			"price": "49.99",
 			"type": "game",
 			"image": "../img/game-10.webp",
-			"color": ""
+			"color": "",
+			"id": "game10"
 		  },
 		  {
 			"name": "Ghost of Tsushima™ Director's Cut - PS5",
@@ -156,7 +174,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-11.webp",
-			"color": ""
+			"color": "",
+			"id": "game11"
 		  },
 		  {
 			"name": "Destruction AllStars - PS5",
@@ -164,7 +183,8 @@
 			"price": "19.99",
 			"type": "game",
 			"image": "../img/game-12.webp",
-			"color": ""
+			"color": "",
+			"id": "game12"
 		  },
 		  {
 			"name": "Ratchet & Clank: Rift Apart - PS5",
@@ -172,7 +192,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-13.webp",
-			"color": ""
+			"color": "",
+			"id": "game13"
 		  },
 		  {
 			"name": "The Nioh Collection - PS5",
@@ -180,7 +201,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-14.webp",
-			"color": ""
+			"color": "",
+			"id": "game14"
 		  },
 		  {
 			"name": "Returnal - PS5",
@@ -188,7 +210,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-15.webp",
-			"color": ""
+			"color": "",
+			"id": "game15"
 		  },
 		  {
 			"name": "Marvel's Spider-Man: Miles Morales Ultimate Edition - PS5",
@@ -196,7 +219,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-16.webp",
-			"color": ""
+			"color": "",
+			"id": "game16"
 		  },
 		  {
 			"name": "Marvel's Spider-Man: Miles Morales - PS5",
@@ -204,7 +228,8 @@
 			"price": "49.99",
 			"type": "game",
 			"image": "../img/game-17.webp",
-			"color": ""
+			"color": "",
+			"id": "game17"
 		  },
 		  {
 			"name": "Demon's Souls - PS5",
@@ -212,7 +237,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-18.webp",
-			"color": ""
+			"color": "",
+			"id": "game18"
 		  },
 		  {
 			"name": "Sackboy: A Big Adventure - PS5",
@@ -220,7 +246,8 @@
 			"price": "59.99",
 			"type": "game",
 			"image": "../img/game-19.webp",
-			"color": ""
+			"color": "",
+			"id": "game19"
 		  },
 		  {
 			"name": "Gran Turismo 7 - PS5",
@@ -228,7 +255,8 @@
 			"price": "69.99",
 			"type": "game",
 			"image": "../img/game-20.webp",
-			"color": ""
+			"color": "",
+			"id": "game20"
 		  }
 		]
 	  },
@@ -240,168 +268,189 @@
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-1.webp",
-			"color": "white"
-		  },
+			"color": "white",
+			"id": "accessory1"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Charge up to two DualSense™ or DualSense Edge™ wireless controllers at the same time without having to connect them to your PlayStation®5 console.",
 			"price": "79.99",
 			"type": "accessories",
 			"image": "../img/accessory-2.webp",
-			"color": "White"
-		  },
+			"color": "White",
+			"id": "accessory2"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-10.webp",
-			"color": "Gray camouflage"
-		  },
+			"color": "Gray camouflage",
+			"id": "accessory3"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-9.webp",
-			"color": "Midnight black"
-		  },
+			"color": "Midnight black",
+			"id": "accessory4"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-11.webp",
-			"color": "Hogwarts Legacy Limited Edition"
-		  },
+			"color": "Hogwarts Legacy Limited Edition",
+			"id": "accessory5"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-12.webp",
-			"color": "Cosmic Red"
-		  },
+			"color": "Cosmic Red",
+			"id": "accessory6"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-13.webp",
-			"color": "Starlight blue"
-		  },
+			"color": "Starlight blue",
+			"id": "accessory7"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-14.webp",
-			"color": "Nova pink"
-		  },
+			"color": "Nova pink",
+			"id": "accessory8"
+		},
 		  {
 			"name": "DualSense Charging Station",
 			"detail": "Get an edge in gameplay by creating your own custom controls to fit your playstyle. Built with high performance and personalization in mind, the DualSense Edge wireless controller invites you to craft your own unique gaming experience so you can play your way. ",
 			"price": "199.99",
 			"type": "accessories",
 			"image": "../img/accessory-15.webp",
-			"color": "Galactic Purple"
-		  },
+			"color": "Galactic Purple",
+			"id": "accessory9"
+		},
 		  {
 			"name": "Sony 27 Gaming Monitor",
 			"detail": "React faster with super smooth 240Hz refresh rate and be a step ahead of your competitors. Fill your games with a wide range of rich, vibrant colors with DisplayHDR™ 400 certification and over 99% sRGB color spectrum coverage. With support for Nvidia® G-SYNC®1 and HDMI 2.1 VRR2 compatibility, the INZONE™ M3 is built for next-level gaming.",
 			"price": "499.99",
 			"type": "accessories",
 			"image": "../img/accessory-3.webp",
-			"color": ""
-		  },
+			"color": "",
+			"id": "accessory10"
+		},
 		  {
 			"name": "PULSE 3D Wireless Headset - Midnight Black",
 			"detail": "Inject a stylish urban aesthetic into your PS5™ gaming with this Gray Camouflage headset  – fine-tuned for 3D Audio on PS5™ consoles.*",
 			"price": "99.99",
 			"type": "accessories",
 			"image": "../img/accessory-4.webp",
-			"color": ""
-		  },
+			"color": "",
+			"id": "accessory11"
+		},
 		  {
 			"name": "HD Camera",
 			"detail": "With dual lenses for 1080p capture and a built-in stand, the HD camera works seamlessly with the PlayStation®5 background removal tools to place you in the spotlight.",
 			"price": "59.99",
 			"type": "accessories",
 			"image": "../img/accessory-5.webp",
-			"color": ""
-		  },
+			"color": "",
+			"id": "accessory12"
+		},
 		  {
 			"name": "Media Remote",
 			"detail": "Easily navigate entertainment* on your PlayStation®5 console with an intuitive layout featuring media controls. Streamline your set-up with the ability to power on your PS5™ console directly and alter the volume and power settings of compatible televisions**.",
 			"price": "29.99",
 			"type": "accessories",
 			"image": "../img/accessory-6.webp",
-			"color": "White"
-		  },
+			"color": "White",
+			"id": "accessory13"
+		},
 		  {
 			"name": "Playstation Move Motion Controller (2 pack)",
 			"detail": "Combine PlayStation®VR with the PlayStation®Move Motion Controllers for an even more immersive and extraordinary gaming experience. With advanced motion sensors and ergonomic design, you can wield anything from your favorite sword to cooking spatulas with ease.",
 			"price": "99.99",
 			"type": "accessories",
 			"image": "../img/accessory-8.webp",
-			"color": ""
-		  },
+			"color": "",
+			"id": "accessory14"
+		},
 		  {
 			"name": "Playstation Camera",
 			"detail": "The PlayStation®Camera for PlayStation®4 uses depth-sensing 3D technology to accurately track you, your DUALSHOCK®4 and PlayStation® Move controllers to provide an extraordinary gaming experience. You can also share gameplay livestreams, or combine with PlayStation®VR to experience a new level of gaming.",
 			"price": "59.99",
 			"type": "accessories",
 			"image": "../img/accessory-16.webp",
-			"color": "black"
-		  },
+			"color": "black",
+			"id": "accessory15"
+		},
 		  {
 			"name": "Xbox Wireless Controller",
 			"detail": "Textured triggers and bumpers | Hybrid D-pad | Button mapping | Bluetooth® technology",
 			"price": "54.99",
 			"type": "accessories",
 			"image": "../img/accessory-17.webp",
-			"color": "Blue"
-		  },
+			"color": "Blue",
+			"id": "accessory16"
+		},
 		  {
 			"name": "Xbox Wireless Controller",
 			"detail": "Textured triggers and bumpers | Hybrid D-pad | Button mapping | Bluetooth® technology",
 			"price": "49.88",
 			"type": "accessories",
 			"image": "../img/accessory-18.webp",
-			"color": "Pink"
-		  },
+			"color": "Pink",
+			"id": "accessory17"
+		},
 		  {
 			"name": "Xbox Wireless Controller",
 			"detail": "Textured triggers and bumpers | Hybrid D-pad | Button mapping | Bluetooth® technology",
 			"price": "54.99",
 			"type": "accessories",
 			"image": "../img/accessory-19.webp",
-			"color": "Green"
-		  },
+			"color": "Green",
+			"id": "accessory18"
+		},
 		  {
 			"name": "Xbox Elite Wireless Controller Series 2 - Core",
 			"detail": "Adjustable-tension thumbsticks | Shorter hair trigger locks | Wrap-around rubberized grip | Re-engineered components",
 			"price": "139.99",
 			"type": "accessories",
 			"image": "../img/accessory-20.webp",
-			"color": "Red"
-		  },
+			"color": "Red",
+			"id": "accessory19"
+		},
 		  {
 			"name": "Xbox Rechargeable Battery + USB-C® Cable",
 			"detail": "Charges while you play I Full Charge in 4 Hours",
 			"price": "24.99",
 			"type": "accessories",
 			"image": "../img/accessory-21.webp",
-			"color": "black"
-		  },
+			"color": "black",
+			"id": "accessory20"
+		},
 		  {
 			"name": "Xbox Wireless Headset",
 			"detail": "",
 			"price": "99.99",
 			"type": "accessories",
 			"image": "../img/accessory-22.webp",
-			"color": "black"
-		  }
+			"color": "black",
+			"id": "accessory21"
+		}
 		]
 	  }
 	]

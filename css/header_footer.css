@@ -17,8 +17,8 @@ header{
     position: sticky;
     left: 0;
     top: 0;
-    border-bottom: 5px solid purple;
     z-index: 10;
+    /*box-shadow: 0px 1px 10px purple;*/
 }
 header nav ul{
     display: flex;
