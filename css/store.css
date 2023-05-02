@@ -63,6 +63,8 @@ button{
     text-align: start;
     align-items: center;
     margin-bottom: 1rem;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .oneline #buybtn{
     height: 30px;
@@ -72,8 +74,8 @@ button{
     height: 30px;
     width: 25%;
 }
-.oneline button:hover{
-    box-shadow: 1px 1px 5px 5px rgb(194, 92, 194);
+#one{
+    margin: 0;
 }
 .name{
     font-weight: bold;

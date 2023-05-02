@@ -41,7 +41,7 @@ class Product{
                 <li><img src="${this.image}" alt=""></li>
                 <li class="name">${this.name}</li>
                 <p class="price">${this.price}</p>
-                <li class="oneline">
+                <li class="oneline" id="one">
                     <button id="buybtn">BUY</button>
                     <button role="button" id="addcart"><i class="fa-solid fa-cart-plus"></i></button>
                 </li>
