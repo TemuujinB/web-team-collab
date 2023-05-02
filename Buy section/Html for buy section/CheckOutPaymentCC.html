@@ -6,55 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Нүүр хуудас</title>
     <script src="https://kit.fontawesome.com/4d9b41b2cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Buy section/css for buy section/main.css">
+    <link rel="stylesheet" href="/Buy section/css for buy section/address.css">
+    <link rel="stylesheet" href="/css/header_footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="left">
             <ul>
-                <li>
-                    <i class="fa-solid fa-house"></i>
-                </li>
-                <li>
-                    <a href="">COMSCOPE</a>
-                </li>
+                <li><i class="fa-solid fa-house"></i></li>
+                <li><a href="index.html">COMSCOPE</a></li>
             </ul>
         </nav>
-
-        <nav>
+        <nav class="middle">
             <ul>
-                <li>
-                    <a href="">CONSOLE</a>
-                </li>
-                <li>
-                    <a href="">ACCESSORIES</a>
-                </li>
-                <li>
-                    <a href="">GAMES</a>
-                </li>
+                <li><a href="/pages/store.html">STORE</a></li>
+                <li><a href="/pages/console.html">CONSOLE</a></li>
+                <li><a href="/pages/accessories.html">ACCESSORIES</a></li>
+                <li><a href="/pages/games.html">GAMES</a></li>
             </ul>
         </nav>
+        <nav class="right">
             <ul>
-                <li>
-                    <i class="fa-solid fa-cart-shopping"></i>  
-                </li>
-                <li>
-                    <i class="fa-solid fa-user"></i>
-                </li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-user"></i></li>
             </ul>
-        <nav>
-
         </nav>
     </header>
+
     <main>
-        <div>
+        <div class="buyH">
             <h1>Худалдан авалт</h1>
             <ul>
                 <li>
-                    Хаяг
+                    <b>Хаяг</b>
                 </li>
+                <hr class="headHr">
                 <li>
                     Хүргэлт
                 </li>
+                <hr class="headHr">
                 <li>
                     Төлбөр
                 </li>
@@ -74,53 +70,54 @@
             <input type="checkbox" id="save-info" name="Мэдээлэл хадгалах:"><br>
             <input type="submit" value="Картаар төлөх">
         </div>
-        <div>
-            <p>Таны сагс</p>
-            <nav>
-                <ul><img src="#" alt="Pimg" srcset="" class="Pimg">
-                    <ul>
-                        <li class="Pname">
-                            <h2>Playstation 5 Console</h2>
-                        </li>
-                        <li class="price">
-                            <p>$499.99</p>
-                        </li>
-                        <li class="storage">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li class="unit">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li>    
-                            <a href="#" class="btn" id="remove">remove</a>
-                            <i></i>
-                        </li>
+        <div class="sagsAdd">
+            <h1>Таны сагс</h1>
+            <div class="productAdd">
+                <nav class="product0">
+                    <ul><img src="/img/console-1.webp" alt="PS5" class="image">
+                        <ul id="productUl">
+                            <li>
+                                <h2 id="Pname">Playstation 5</h2>
+                            </li>
+                            <li id="capacity">
+                                <p>Багтаамж : 825GB</p>
+                            </li>
+                            <li id="unit">
+                                <p>Тоо ширхэг: 1</p>
+                            </li>
+                            <li id="price">
+                                <p>$499.99</p>
+                            </li>
+                            <li>
+                                <a href="#"  id="remove">remove</a>
+                            </li>
+                        </ul>
                     </ul>
-                </ul>
-            </nav>
-            <nav>
-                <ul><img src="#" alt="Pimg" srcset="" class="Pimg">
-                    <ul>
-                        <li class="Pname">
-                            <h2>Xbox</h2>
-                        </li>
-                        <li class="price">
-                            <p>$499.99</p>
-                        </li>
-                        <li class="storage">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li class="unit">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li>    
-                            <a href="#" class="btn" id="remove">remove</a>
-                            <i></i>
-                        </li>
+                </nav>
+                <hr class="otherHr">
+                <nav class="product1">
+                    <ul><img src="/img/console-6.webp" alt="Xbox" class="image">
+                        <ul id="productUl">
+                            <li >
+                                <h2 id="Pname">Xbox</h2>
+                            </li>
+                            <li >
+                                <p id="capacity">Багтаамж : 825GB</p>
+                            </li>
+                            <li id="unit">
+                                <p>Тоо ширхэг: 1</p>
+                            </li>
+                            <li id="price">
+                                <p>$499.99</p>
+                            </li>
+                            <li>
+                                <a href="#"  id="remove">remove</a>
+                            </li>
+                        </ul>
                     </ul>
-                </ul>
-            </nav>
-        </div>
+                </nav>
+            </div>
+            
     </main>
     
     <footer>
@@ -129,87 +126,53 @@
                 <li>
                     <h3>Тусламж</h3>
                 </li>
-                <ul>
-                    <li>
-                        <a href="">Дэлгүүрийн байршил</a>
-                    </li>
-                    <li>
-                        <a href="">Захиалга хийх заавар</a>
-                    </li>
-                    <li>
-                        <a href="">Төлбөр буцаах хүсэлт</a>
-                    </li>
-                    <li>
-                        <a href="">Асуулт хариулт</a>
-                    </li>
-                </ul>
+                <li><a>Дэлгүүрийн байршил</a></li>
+                <li><a>Захиалга хийх заавар</a></li>
+                <li><a>Төлбөр буцаах хүсэлт</a></li>
+                <li><a>Асуулт хариулт</a></li>
             </ul>
 
             <ul>
                 <li>
                     <h3>Үйлчилгээ</h3>
                 </li>
+                <li><a>Нууцлал хамгаалалт</a></li>
+                <li><a>Үйлчилгээний нөхцөл</a></li>
+                <li><a>Төлбөрийн нөхцөл</a></li>
+                <li><a>Хүргэлт</a></li>
+                <li><a>Онлайн линзингийн үйлчилгээ</a></li>
+            </ul>
+            <nav class="add_num">
                 <ul>
                     <li>
-                        <a href="">Нууцлал хамгаалалт</a>
+                        <h3>Хаяг</h3>
                     </li>
-                    <li>
-                        <a href="">Үйлчилгээний нөхцөл</a>
-                    </li>
-                    <li>
-                        <a href="">Төлбөрийн нөхцөл</a>
-                    </li>
-                    <li>
-                        <a href="">Хүргэлт</a>
-                    </li>
-                    <li>
-                        <a href="">Онлайн линзингийн үйлчилгээ</a>
-                    </li>
+                    <li><p>УБ, Баянбүрд, Компьютер молл, 2020 тоот</p></li>
                 </ul>
-            </ul>
 
-            <ul>
-                <li>
-                    <h3>Хаяг</h3>
-                </li>
                 <ul>
                     <li>
-                        <p>УБ, Баянбүрд, Компьютер молл, 2020 тоот</p>
+                        <h3>Холбоо барих</h3>
                     </li>
+                    <li><p>Утас: [+976] 88776655</p></li>
+                    <li><p>Имэйл: example@gmail.com</p></li>
                 </ul>
-            </ul>
-
-            <ul>
-                <li>
-                    <h3>Холбоо барих</h3>
-                </li>
+            </nav>
+            <div>
                 <ul>
                     <li>
-                        <p>Утас: [+976] 88776655</p>
-                    </li>
-                    <li>
-                        <p>Имэйл: example@gmail.com</p>
+                        <h3>Биднийг дагаарай</h3>
                     </li>
                 </ul>
-            </ul>
-
-            <ul>
-                <li>
-                    <h3>Биднийг дагаарай</h3>
-                </li>
-                <ul>
-                    <li>
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-instagram"></i>
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-twitter"></i>
-                    </li>
+                <ul class="icon">
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
                 </ul>
-            </ul>
-            <hr>
+            </div>
+        </nav>
+        <hr>
+        <nav>
             <p>2023 © Зохиогчийн эрхийн хуулиар хамгаалагдав.</p>
             <p>Хөгжүүлсэн SET</p>
         </nav>

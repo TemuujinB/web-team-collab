@@ -6,7 +6,7 @@ h1 {
     width: 1px;
     height: 1px;
     padding: 0;
-    margin: -1px;
+    margin: -6px;
     overflow: hidden;
 }
 main {
@@ -22,7 +22,7 @@ main section {
 article {
     text-align: center;
     background-color: aliceblue;
-    height: 500px;
+    height: 600px;
 }
 .article-wrapper {
     display: flex;

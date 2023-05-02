@@ -7,6 +7,10 @@
     <title>Нүүр хуудас</title>
     <script src="https://kit.fontawesome.com/4d9b41b2cf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/Buy section/css for buy section/main.css">
+    <link rel="stylesheet" href="/Buy section/css for buy section/cart2.css">
+    <link rel="stylesheet" href="/css/header_footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/root.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
@@ -37,60 +41,60 @@
     </header>
 
     <main>
-        <div>
+        <div class="sags">
             <h1>Сагс</h1>
-        </div>
-        <div class="">
             <p id="payment">Төлбөрөө төлөх үү? Үргэлжлүүлэн худалдан авалт хийх</p>
+        </div>
+        
+        <div class="product">
             <nav class="product0">
-                <ul><img src="#" alt="Pimg" srcset="" id="Pimg">
-                    <ul>
-                        <li id="Pname">
-                            <h2>Playstation 5 Console</h2>
+                <ul><img src="/img/console-1.webp" alt="PS5" class="image">
+                    <ul id="productUl">
+                        <li>
+                            <h2 id="Pname">Playstation 5</h2>
+                        </li>
+                        <li id="capacity">
+                            <p>Багтаамж : 825GB</p>
+                        </li>
+                        <li id="unit">
+                            <p>Тоо ширхэг: 1</p>
                         </li>
                         <li id="price">
                             <p>$499.99</p>
                         </li>
-                        <li id="storage">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li id="unit">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li>    
-                            <a href="#" class="btn" id="remove">remove</a>
-                            <i></i>
+                        <li>
+                            <a href="#"  id="remove">remove</a>
                         </li>
                     </ul>
                 </ul>
             </nav>
+            <hr>
             <nav class="product1">
-                <ul><img src="#" alt="Pimg" srcset="" id="Pimg1">
-                    <ul>
-                        <li class="Pname">
-                            <h2>Xbox</h2>
+                <ul><img src="/img/console-6.webp" alt="Xbox" class="image">
+                    <ul id="productUl">
+                        <li >
+                            <h2 id="Pname">Xbox</h2>
                         </li>
-                        <li class="price">
+                        <li >
+                            <p id="capacity">Багтаамж : 825GB</p>
+                        </li>
+                        <li id="unit">
+                            <p>Тоо ширхэг: 1</p>
+                        </li>
+                        <li id="price">
                             <p>$499.99</p>
                         </li>
-                        <li class="storage">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li class="unit">
-                            <p>Багтаамж : 825GB</p>
-                        </li>
-                        <li>    
-                            <a href="#" class="btn" id="remove">remove</a>
-                            <i></i>
+                        <li>
+                            <a href="#"  id="remove">remove</a>
                         </li>
                     </ul>
                 </ul>
             </nav>
         </div>
         <div class="checkoutshort">
-            <h2 id="tag1">Захиалгын хураангуй</h2>
-            <input type="text" id="coupon" name="inputcoupon" placeholder="Купон код энд оруулна уу"><br>
-            <ul id="price1">
+            <h2>Захиалгын хураангуй</h2>
+            <input type="text" class="coupon" name="inputcoupon" placeholder="Купон код энд оруулна уу"><br>
+            <ul class="price1">
                 
                     <p>Нийт Бараа : 188₮</p>
                 
@@ -101,19 +105,28 @@
                     <p>Нийт: 188$</p>
             
             </ul>
-            <input href="#" id="btn" type="submit" value="Худалдан авах">
-            
+            <input href="/Buy section/Html for buy section/CheckOutAddress.html" class="btn" type="submit" value="Худалдан авах">
         </div>
-        <div>
+        <div class="zahialgaMedee">
             <h2>Захиалгын мэдээлэл</h2>
+            <hr>
             <form>
                 <p>Буцаан олгох журам</p>
                 <select name = "dropdown">
                    <option value = "Juram" selected>Энэ хэсэгт манай журам байна.  </option>
                    <option value = "Juram">...</option>
                 </select>
+                <hr>
+                <select name = "dropdown">
+                    <option value = "Juram" selected>Энэ хэсэгт манай журам байна.  </option>
+                    <option value = "Juram">...</option>
+                 </select>
+                 <hr>
+                 <select name = "dropdown">
+                    <option value = "Juram" selected>Энэ хэсэгт манай журам байна.  </option>
+                    <option value = "Juram">...</option>
+                 </select>
              </form>
-            
         </div>
     </main>
     

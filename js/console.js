@@ -10,8 +10,8 @@ fetch('../json/console.json')
                 <h2>${article.title}</h2>
                 <h3>${article.subtitle}</h3>
                 <div>
-                    <a href="${article.buyLink.href}">${article.buyLink.text}</a>
-                    <a href="${article.learnMoreLink.href}">${article.learnMoreLink.text}</a>
+                    <a href="${article.buyLink.href}"><span class="article-hypertext">${article.buyLink.text}</span> ></a>
+                    <a href="${article.learnMoreLink.href}"><span class="article-hypertext">${article.learnMoreLink.text}</span> ></a>
                 </div>
             `;
             articleElement.setAttribute('style', article.style);
