@@ -90,3 +90,19 @@ footer nav{
     align-items: center;
     justify-content: space-around;
 }
+@media screen and (max-width: 992px) {
+    
+}
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .middle{
+        display: none;
+    }
+    .fa-user{
+        display: none;
+    }
+}

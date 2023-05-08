@@ -4,6 +4,7 @@ class product extends HTMLElement{
         this.name = store.name;
         this.price = store.price;
         this.detail = store.detail;
+        this.type = store.type;
         this.render();
     }
     render(){
@@ -22,3 +23,34 @@ class product extends HTMLElement{
                         </article>`
     }
 }
+class similarPro extends HTMLElement{
+    constructor(productl){
+        this.type = productl.type;
+        this.image = productl.image;
+        this.name = productl.name;
+        this.detail = productl.detail;
+        this.innerHTML = `
+            <ul>
+                <li><img src="${this.image}" alt="img3"></li>
+                <li class="Pname">${this.name}</li>
+                <li class="description">${this.detail}</li>
+                <li><button type="button" class="more">дэлгэрэнгүй</button></li>
+            </ul>
+        `
+    }
+}
+fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
+.then(Response => Response.json)
+.then(data =>{
+    console.log("data: ",data);
+    if(this.type == "consoles"){
+        const similar = data.record.product[0].consoles.slice(0,3).map(dy=>new similarPro(dy));
+    }else if(this.type == "games"){
+        const similar = data.record.product[1].games.slice(0,3).map(dy=>new similarPro(dy));
+    }else{
+        const similar = data.record.product[2].accessories.slice(0,3).map(dy=>new similarPro(dy));
+    }
+    console.log("similar: ", similar);
+    const similarProList = similar.map(i => i.Render()).join('');
+    document.getElementById("likely").innerHTML = similarProList;
+})
