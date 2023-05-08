@@ -40,7 +40,7 @@ class similarPro extends HTMLElement{
     }
 }
 fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
-.then(Response => Response.json)
+.then(response => response.json())
 .then(data =>{
     console.log("data: ",data);
     if(this.type == "consoles"){
@@ -54,3 +54,4 @@ fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
     const similarProList = similar.map(i => i.Render()).join('');
     document.getElementById("likely").innerHTML = similarProList;
 })
+.catch(error => console.log(error));
