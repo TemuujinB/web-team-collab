@@ -8,7 +8,6 @@
     <script src="https://kit.fontawesome.com/4d9b41b2cf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/header_footer.css">
     <link rel="stylesheet" href="../css/product.css">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/root.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,45 +19,27 @@
     <header>
         <nav class="left">
             <ul>
-                <li>
-                    <i class="fa-solid fa-house"></i>
-                </li>
-                <li>
-                    <a href="../index.html">COMSCOPE</a>
-                </li>
+                <li><img src="../img/logo.png"></li>
+                <li><a href="index.html">COMSCOPE</a></li>
             </ul>
         </nav>
-
         <nav class="middle">
             <ul>
-                <li><a href="store.html">STORE</a></li>
-                <li><a href="console.html">CONSOLE</a></li>
-                <li><a href="accessories.html">ACCESSORIES</a></li>
-                <li><a href="games.html">GAMES</a></li>
+                <li><a href="./pages/store.html">STORE</a></li>
+                <li><a href="./pages/console.html">CONSOLE</a></li>
+                <li><a href="./pages/accessories.html">ACCESSORIES</a></li>
+                <li><a href="./pages/games.html">GAMES</a></li>
             </ul>
         </nav>
-    
         <nav class="right">
             <ul>
-                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-user"></i></li>
             </ul>
         </nav>
     </header>
     <main>
-        <article>
-            <nav class="product">
-                <ul class="product"><img src="" alt=""></ul>
-                <ul class="information">
-                    <li class="Pname"><h3></h3></li>
-                    <li class="price"></li>
-                    <li>Өнгө</li>
-                    <li class="Color"><input type="radio" name="color" id="button1" class="color" checked><input type="radio" name="color" id="button2" class="color"><input type="radio" name="color" id="button3" class="color"><input type="radio" name="color" id="button4" class="color"></li>
-                    <li class="double"><button type="button" class="buy" id="buybtn">шууд авах</button><a href="" class="shopping"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li><button type="button" class="more">дэлгэрэнгүй</button></li>
-                </ul>
-            </nav>
-        </article>
+        <product></product>
         <section class="back">
             <nav class="likely">
                 <ul>

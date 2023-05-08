@@ -25,14 +25,14 @@
 //     })
 //     .catch(error=>console.log(error));
 
-class Product{
+class Store{
 
     constructor(product){
         this.image = product.image;
         this.name = product.name;
         this.price = product.price;
         this.type = product.type;
-        
+        this.Render();
     }
 
     Render(){
@@ -40,10 +40,12 @@ class Product{
             <nav>
                 <li><img src="${this.image}" alt=""></li>
                 <li class="name">${this.name}</li>
-                <p class="price">${this.price}</p>
+                <p class="price">Үнэ: ${this.price}</p>
                 <li class="oneline" id="one">
                     <button id="buybtn">BUY</button>
-                    <button role="button" id="addcart"><i class="fa-solid fa-cart-plus"></i></button>
+                    <button role="button" id="addcart">
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </button>
                 </li>
             </nav>
         </article> `
@@ -53,6 +55,10 @@ class Product{
             const myCart = document.querySelector("sags");
             myCart.AddToCart(this);
         })
+        this.querySelector("buybtn").addEventListener("click", ()=>{
+            const myProd = new product(this);
+            console.log("myProd: ",myProd);
+        })
     }
 }
 
@@ -60,9 +66,9 @@ fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
     .then(response => response.json())
     .then(data => {
         console.log("ogogdol: ", data);
-        const console_data = data.record.product[0].consoles.slice(0, 5).map(dt => new Product(dt));
-        const game_data = data.record.product[1].games.slice(0, 5).map(dt => new Product(dt));
-        const accessory_data = data.record.product[2].accessories.slice(0, 5).map(dt => new Product(dt));
+        const console_data = data.record.product[0].consoles.slice(0, 5).map(dt => new Store(dt));
+        const game_data = data.record.product[1].games.slice(0, 5).map(dt => new Store(dt));
+        const accessory_data = data.record.product[2].accessories.slice(0, 5).map(dt => new Store(dt));
         const gameList = game_data.map(i => i.Render()).join('');
         const consoleList = console_data.map(i => i.Render()).join('');
         const accessoriesList = accessory_data.map(i => i.Render()).join('');

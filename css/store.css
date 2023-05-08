@@ -68,11 +68,16 @@ button{
 }
 .oneline #buybtn{
     height: 30px;
-    width: 70%;
+    width: 73%;
+    border-radius: 10px ;
 }
 .oneline #addcart{
     height: 30px;
     width: 25%;
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #one{
     margin: 0;
