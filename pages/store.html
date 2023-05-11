@@ -14,8 +14,11 @@
     <script src="https://kit.fontawesome.com/4d9b41b2cf.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../img/logo.png" type="image/x-icon">
     <script src="../js/store.js"></script>
-    <script type="module" src="../js/header_footer.js"></script>
-    <script type="module" src="../js/sags.js"></script>
+    <script type="module" src="../web_component/comscope-header.js"></script>
+    <script type="module" src="../web_component/comscope-footer.js"></script>
+    <script type="module" src="../web_component/ps-one_product.js"></script>
+    <script type="module" src="../web_component/ps-local.js"></script>
+        <script type="module" src="../js/sags.js"></script>
 </head>
 <body>
     <header>
@@ -31,7 +34,9 @@
                     <h3>CONSOLE</h3>
                     <a href="">SEE MORE></a>
                 </li>
-                <li id="consoles_list"></li>
+                <li id="consoles_list">
+                    
+                </li>
             </ul>
             <ul>
                 <li class="oneline">
@@ -48,6 +53,7 @@
                 <li id="games_list"></li>
             </ul>
         </nav>
+        <ps-local></ps-local>
     </main>
     <footer>
         <comscope-footer></comscope-footer>

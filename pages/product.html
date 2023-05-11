@@ -13,8 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo.png" type="image/x-icon">
-    <script type="module" src="../js/header_footer.js" defer></script>
-    <script type="module" src="../js/product.js" defer></script>
+    <script type="module" src="../web_component/comscope-header.js"></script>
+    <script type="module" src="../web_component/comscope-footer.js"></script>
+    <script type="module" src="../web_component/ps-one_product.js"></script>
+    <!-- <script type="module" src="../js/product.js"></script> -->
 </head>
 <body>
     <header>
@@ -23,7 +25,9 @@
     <main>
         <product></product>
         <section class="back">
-            <nav class="likely"></nav>
+            <nav class="likely">
+                <ps-one_product.js></ps-one_product.js>
+            </nav>
         </section>
     </main>
     <footer>

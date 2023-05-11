@@ -1,34 +1,7 @@
-class headerTemplate extends HTMLElement{
-    connectedCallBack(){
-        this.parentNode.innerHTML = `
-        <nav class="left">
-            <ul><img src="../img/logo.png"></ul>
-            <ul><a href="index.html">COMSCOPE</a></ul>
-        </nav>
-        <nav class="middle">
-            <ul>
-                <li><a href="./pages/store.html">STORE</a></li>
-                <li><a href="./pages/console.html">CONSOLE</a></li>
-                <li><a href="./pages/accessories.html">ACCESSORIES</a></li>
-                <li><a href="./pages/games.html">GAMES</a></li>
-            </ul>
-        </nav>
-        <nav class="right">
-            <ul>
-                <li>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <sags></sags>
-                </li>
-                <li><i class="fa-solid fa-user"></i></li>
-            </ul>
-        </nav>
-        `
-    }
-}
-customElements.define("comscope-header",headerTemplate);
-class footerTemplate extends HTMLElement{
-    connectedCallBack(){
-        `
+class ComscopeFooter extends HTMLElement {
+    constructor() {
+        super();
+        this.innerHTML=    `
         <nav>
             <ul>
                 <li>
@@ -84,5 +57,23 @@ class footerTemplate extends HTMLElement{
         </nav>
         `
     }
+
+    connectedCallback() {
+        //implementation
+    }
+
+    disconnectedCallback() {
+        //implementation
+    }
+
+    attributeChangedCallback(name, oldVal, newVal) {
+        //implementation
+    }
+
+    adoptedCallback() {
+        //implementation
+    }
+
 }
-customElements.define("comscope-footer",footerTemplate);
+
+window.customElements.define('comscope-footer', ComscopeFooter);
