@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(246, 247, 249);
+    background-color: var(--background_color);
 }
 main{
     width: var(--slide_width);

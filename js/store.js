@@ -32,6 +32,7 @@ class Store {
         this.name = product.name;
         this.price = product.price;
         this.type = product.type;
+        this.id = product.id;
         this.Render();
     }
 
@@ -49,7 +50,7 @@ class Store {
         //         </li>
         //     </nav>
         // </article> `
-        return `<ps-one_product image="${this.image}" name="${this.name}" price="${this.price}" ></ps-one_product>`
+        return `<ps-one_product image="${this.image}" name="${this.name}" price="${this.price}" id="${this.id}"></ps-one_product>`
 
     
 
