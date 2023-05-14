@@ -7,10 +7,18 @@ ul{
     padding: 0;
     margin: 0;
 }
+comscope-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
 header{
+    height: 2.5vw;
     background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;  
     padding: 10px 50px;  
@@ -26,14 +34,16 @@ header nav ul{
     justify-content: space-around;
 }
 .left{
-    width: 15%;
+    width: 10%;
+    height: 100%;
+    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .left img {
-    width: 25%;
+    width: 95%;
 }
 .middle{
     width: 35%;
@@ -43,8 +53,25 @@ header nav ul{
 .right{
     width: 15%;
 }
+.right li{
+    display: flex;
+    flex-direction: row;
+}
+.right .count{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: sticky;
+    bottom: 0;
+}
 footer{
     background-color: var(--footer_background);
+    width: 100%;
 }
 footer i{
     width: 5vh;
@@ -70,4 +97,38 @@ footer nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+mobile-header{
+    display: none;
+}
+mobile-footer{
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    
+}
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .middle{
+        display: none;
+    }
+    .fa-user{
+        display: none;
+    }
+    comscope-header{
+        display: none;
+    }
+    comscope-footer{
+        display: none;
+    }
+    mobile-header{
+        display: inline;
+    }
+    mobile-footer{
+        display: inline;
+    }
 }
