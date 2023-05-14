@@ -1,0 +1,33 @@
+header{
+    height: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10px 50px;  
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.mobileHeader{
+    display: flex;
+    flex-direction: row;
+}
+.mobileHeader a{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+.mobileHeader img{
+    width: 50%;
+}
+mobile-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Layer_1{
+    width: 25px;
+}

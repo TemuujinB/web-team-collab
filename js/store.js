@@ -24,7 +24,6 @@
 // //         })
 // //     })
 // //     .catch(error=>console.log(error));
-
 class Store {
 
     constructor(product){
@@ -50,7 +49,7 @@ class Store {
         //         </li>
         //     </nav>
         // </article> `
-        return `<ps-one_product image="${this.image}" name="${this.name}" price="${this.price}" id="${this.id}"></ps-one_product>`
+        return `<ps-one_product image="${this.image}" name="${this.name}" price="${this.price}" id="${this.id}" type="${this.type}"></ps-one_product>`
 
     
 

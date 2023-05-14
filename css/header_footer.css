@@ -71,6 +71,7 @@ header nav ul{
 }
 footer{
     background-color: var(--footer_background);
+    width: 100%;
 }
 footer i{
     width: 5vh;
@@ -97,6 +98,12 @@ footer nav{
     align-items: center;
     justify-content: space-around;
 }
+mobile-header{
+    display: none;
+}
+mobile-footer{
+    display: none;
+}
 @media screen and (max-width: 992px) {
     
 }
@@ -111,5 +118,17 @@ footer nav{
     }
     .fa-user{
         display: none;
+    }
+    comscope-header{
+        display: none;
+    }
+    comscope-footer{
+        display: none;
+    }
+    mobile-header{
+        display: inline;
+    }
+    mobile-footer{
+        display: inline;
     }
 }
