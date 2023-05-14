@@ -24,6 +24,7 @@ class sags extends HTMLElement{
         this.products.push(myProduct);
         this.render();
         localStorage.setItem("product_len", this.products.length);
+        localStorage.setItem('myProducts', JSON.stringify(this.products));
         console.log(this.products);
         
     }
