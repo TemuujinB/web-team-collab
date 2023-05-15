@@ -84,9 +84,9 @@ fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
     .then(response => response.json())
     .then(data => {
         console.log("ogogdol: ", data);
-        const console_data = data.record.product[0].consoles.slice(0, 5).map(dt => new Store(dt));
-        const game_data = data.record.product[1].games.slice(0, 5).map(dt => new Store(dt));
-        const accessory_data = data.record.product[2].accessories.slice(0, 5).map(dt => new Store(dt));
+        const console_data = data.record.product[0].consoles.slice(2, 7).map(dt => new Store(dt));
+        const game_data = data.record.product[1].games.slice(5, 10).map(dt => new Store(dt));
+        const accessory_data = data.record.product[2].accessories.slice(5, 10).map(dt => new Store(dt));
         const gameList = game_data.map(i => i.Render()).join('');
         const consoleList = console_data.map(i => i.Render()).join('');
         const accessoriesList = accessory_data.map(i => i.Render()).join('');

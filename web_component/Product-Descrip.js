@@ -13,13 +13,14 @@ class ProductDescrip extends HTMLElement {
                                 <ul class="product"><img src="${product.image}" alt=""></ul>
                                 <ul class="information">
                                     <li class="Pname"><h3>${product.name}</h3></li>
-                                    <li class="price">${product.price}</li>
+                                    <li class="price">Үнэ: ${product.price}</li>
+                                    <li class="description">${product.detail}</li>
                                     <li class="oneline" id="one">
                                         <button id="buybtn">BUY</button>
                                         <button id="addcart"><i class="fa-solid fa-cart-plus"></i></button>
                                     </li>
-                                    <li>
-                                        <button id="more">ДЭЛГЭРЭНГҮЙ</button>
+                                    <li id="more">
+                                        <button>ДЭЛГЭРЭНГҮЙ</button>
                                     </li>
                                 </ul>
                             </nav>
@@ -60,6 +61,9 @@ class ProductDescrip extends HTMLElement {
                 const similarPro = products.slice(0, 3).map(dt => this.similarRender(dt)).join('');
                 document.getElementById("likely").innerHTML = similarPro;
             })
+        console.log(this.children[0]);
+        
+         
     }
 
     disconnectedCallback() {
