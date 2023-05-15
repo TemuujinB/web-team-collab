@@ -35,23 +35,9 @@ li{
     flex-direction: column;
     font-size: 1.4em;
 }
-#more{
-    width: 100%;
-    height: 30px;
-}
-#more button{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    border: 1px solid black;
-}
 .description{
-    font-size: 0.9rem;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 .price{
     opacity: 0.5;

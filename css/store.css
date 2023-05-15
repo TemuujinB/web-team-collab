@@ -24,33 +24,46 @@ button{
     align-items: flex-end;
     margin: 1rem;
 }
-#consoles_list{
+/* #consoles_list{
     width: var(--slide_width);
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
     justify-content: space-evenly;
-    /*column-gap: 50px;*/
+} */
+#consoles_list{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    justify-content: center;
 }
 #consoles_list img{
     width: var(--console_img_width);
     height: var(--console_img_height);
 }
-#accessories_list{
+/* #accessories_list{
     width: var(--slide_width);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+} */
+#accessories_list{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    justify-content: center;
 }
 #accessories_list img{
     width: var(--console_img_width);
     height: var(--console_img_height);
 }
-#games_list{
+/* #games_list{
     width: var(--slide_width);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+} */
+#games_list{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    justify-content: center;
 }
 #games_list img{
     width: var(--console_img_width);
