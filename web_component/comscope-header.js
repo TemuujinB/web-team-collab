@@ -23,7 +23,6 @@ class ComscopeHeader extends HTMLElement {
                     <a href="../Buy section/Html for buy section/Cart2.html"><i class="fa-solid fa-cart-shopping"></i></a>
                     <shopping-cart></shopping-cart>
                 </li>
-                <li><i class="fa-solid fa-user"></i></li>
             </ul>
         </nav>
         `
