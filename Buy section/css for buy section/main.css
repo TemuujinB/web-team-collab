@@ -1,27 +1,26 @@
-main{
-    position: relative;
-    height: 1000px;
+main {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    place-items: center;
 }
-
+main section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
 
 .product{
-    position: relative;
-
-    width: 560px;
-
-    left: 145px;
-    top: 200px;
-
+    position: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
 }
 #productUl{
-    position: relative;
-    
-    top: 0px;
-    left: 100px;
-    padding: 0px;
-    width: 560px;
-    height: 133px;
-
+    position: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: aqua;
 }
 #Pname{
     /* Title */
@@ -40,20 +39,15 @@ main{
     letter-spacing: -0.55px;
 
     color: #000000;
+    
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 #capacity{
     /* Size: L */
 
 
-    width: 357px;
-    height: 7px;
+    width: fit-content;
+    height: fit-content;
 
     /* Paragraph 04 */
 
@@ -68,19 +62,13 @@ main{
 
     color: #000000;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 #unit{
     /* Quantity: 1 */
 
 
-    width: 357px;
-    height: 7px;
+    width: fit-content;
+    height: fit-content;
 
     /* Paragraph 04 */
 
@@ -106,8 +94,8 @@ main{
     /* Price */
 
 
-        width: 81px;
-        height: 30px;
+        width: fit-content;
+        height: fit-content;
 
         /* Heading 04 */
 
@@ -130,33 +118,11 @@ main{
         flex-grow: 0;
 }
 #remove{
-    /* Remove Button */
-
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-
-    
-    text-decoration-line: underline;
-
-    color: #000000;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    position: absolute;
-    left: 300px;
-    top: 100px;
+    position: flex;
 }
 
 .image{
-    position: absolute;
+    position: flex;
     left: 0px;
     width: 129px;
     height: 133px;
@@ -167,9 +133,10 @@ main{
 
 
 .product1{
-    width: 560px;
-    left: 145px;
-    top: 250px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    place-items: center;
 
 }
 

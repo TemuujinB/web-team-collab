@@ -6,182 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Нүүр хуудас</title>
     <script src="https://kit.fontawesome.com/4d9b41b2cf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/Buy section/css for buy section/main.css">
-    <link rel="stylesheet" href="/Buy section/css for buy section/address.css">
     <link rel="stylesheet" href="/css/header_footer.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/root.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="module" src="/web_component/comscope-header.js"></script>
+    <script type="module" src="/web_component/comscope-footer.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="left">
-            <ul>
-                <li><i class="fa-solid fa-house"></i></li>
-                <li><a href="index.html">COMSCOPE</a></li>
-            </ul>
-        </nav>
-        <nav class="middle">
-            <ul>
-                <li><a href="/pages/store.html">STORE</a></li>
-                <li><a href="/pages/console.html">CONSOLE</a></li>
-                <li><a href="/pages/accessories.html">ACCESSORIES</a></li>
-                <li><a href="/pages/games.html">GAMES</a></li>
-            </ul>
-        </nav>
-        <nav class="right">
-            <ul>
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li><i class="fa-solid fa-user"></i></li>
-            </ul>
-        </nav>
+        <comscope-header></comscope-header>
     </header>
-
-    <main>
-        <div class="buyH">
-            <h1>Худалдан авалт</h1>
-            <ul>
-                <li>
-                    <b>Хаяг</b>
-                </li>
-                <hr class="headHr">
-                <li>
-                    Хүргэлт
-                </li>
-                <hr class="headHr">
-                <li>
-                    Төлбөр
-                </li>
-            </ul>
-        </div>
-
-        <div class="info">
-            <h3>Хүргэлтийн мэдээлэл</h3>
-            <form>
-                <input type="text" id="first-name" name="first-name" required placeholder="Овог"><br>
-            
-                <input type="text" id="last-name" name="last-name" required placeholder="Нэр"><br>
-            
-                <input type="text" id="address" name="address" required placeholder="Хаяг"><br>
-            
-                <textarea id="full-address" name="full-address" rows="4" cols="50" required placeholder="Дэлгэрэнгүй хаяг"></textarea><br>
-            
-                <input type="text" id="city" name="city" required placeholder="Хот"><br>
-            
-                <select id="country" name="country" required>
-                    <option value="">Аймаг</option>
-                    <option value="AR">Архангай</option>
-                    <option value="BU">Баян-Өлгий</option>
-                    <option value="BX">Баянхонгор</option>
-                    <option value="BG">Булган</option>
-                    <option value="DU">Дархан-Уул</option>
-                    <option value="DO">Дорнод</option>
-                    <option value="DG">Дорноговь</option>
-                    <option value="DD">Дундговь</option>
-                    <option value="GA">Говь-Алтай</option>
-                    <option value="GS">Говьсүмбэр</option>
-                    <option value="KH">Хэнтий</option>
-                    <option value="HO">Хөвсгөл</option>
-                    <option value="KH">Ховд</option>
-                    <option value="OG">Өмнөговь</option>
-                    <option value="OR">Орхон</option>
-                    <option value="OH">Өвөрхангай</option>
-                    <option value="SG">Сэлэнгэ</option>
-                    <option value="SB">Сүхбаатар</option>
-                    <option value="TV">Төв</option>
-                    <option value="UB">Улаанбаатар</option>
-                    <option value="UV">Увс</option>
-                <!-- add more countries here -->
-                </select><br>
-
-                <select id="district" name="District" required>
-                    <option value="Duureg">Дүүрэг</option>
-                    <option value="Bayangol">Bayangol</option>
-                    <option value="Bayanzurh">Bayanzurh</option>
-                    <option value="BagaHangai">Baga Hangai</option>
-                    <option value="Chingeltei">Chingeltei</option>
-                    <option value="Khan-Uul">Khan-Uul</option>
-                    <option value="Sukhbaatar">Sukhbaatar</option>
-                    <option value="Songinokhairkhan">Songinokhairkhan</option>
-                    <option value="Nalaikh">Nalaikh</option>
-                </select><br>
-            
-                <input type="text" id="what3words" name="what3words" placeholder="W3W"><br>
-            
-                <label for="save-info" id="save-info-info">Мэдээлэл хадгалах</label>
-                <input type="checkbox" id="save-info" name="save-info"><br>
-            
-                <input type="submit" id="submit" value="Үргэлжлүүлэх">
-            </form>
-        </div>
-
-        <div class="sagsAdd">
-            <h1>Таны сагс</h1>
-            <div class="productAdd">
-                <nav class="product0">
-                    <ul><img src="/img/console-1.webp" alt="PS5" class="image">
-                        <ul id="productUl">
-                            <li>
-                                <h2 id="Pname">Playstation 5</h2>
-                            </li>
-                            <li id="capacity">
-                                <p>Багтаамж : 825GB</p>
-                            </li>
-                            <li id="unit">
-                                <p>Тоо ширхэг: 1</p>
-                            </li>
-                            <li id="price">
-                                <p>$499.99</p>
-                            </li>
-                            <li>
-                                <a href="#"  id="remove">remove</a>
-                            </li>
-                        </ul>
-                    </ul>
-                </nav>
-                <hr class="otherHr">
-                <nav class="product1">
-                    <ul><img src="/img/console-6.webp" alt="Xbox" class="image">
-                        <ul id="productUl">
-                            <li >
-                                <h2 id="Pname">Xbox</h2>
-                            </li>
-                            <li >
-                                <p id="capacity">Багтаамж : 825GB</p>
-                            </li>
-                            <li id="unit">
-                                <p>Тоо ширхэг: 1</p>
-                            </li>
-                            <li id="price">
-                                <p>$499.99</p>
-                            </li>
-                            <li>
-                                <a href="#"  id="remove">remove</a>
-                            </li>
-                        </ul>
-                    </ul>
-                </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="w-100" style="height: 30px;"></div>
+            <div class="col-sm-6">
+                <h1 class="font-weight-bolder" style="margin: 10px;">Худалдан авалт</h1>
+                <h3><b>Хаяг</b></h3>
+                <h3>Хүргэлтийн мэдээлэл</h3>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input class="form-control" id="inputFname" placeholder="Овог">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input class="form-control" id="inputLname" placeholder="Нэр">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Хаяг">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <input class="form-control" id="inputCountry" placeholder="Улс">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input class="form-control" id="inputCity" placeholder="Хот">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input class="form-control" id="inputW3W" placeholder="W3W">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Мэдээлэл хадгалах
+                          </label>
+                        </div>
+                      </div>
+                </form>
+                <h3><b>Хүргэлт</b></h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Энгийн хүргэлт
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                    <label class="form-check-label" for="defaultCheck2">
+                        Шуурхай хүргэлт
+                    </label> 
+                </div>
+                <h3><b>Төлбөр</b></h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Бэлнээр
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                    <label class="form-check-label" for="defaultCheck2">
+                        Шилжүүлэг
+                    </label> 
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                    <label class="form-check-label" for="defaultCheck2">
+                        Карт
+                    </label> 
+                </div>
+                <a href="#" class="btn bg-dark text-light">Худалдан авах</a> 
             </div>
-            <div class="checkoutshort">
-                <input type="text" class="coupon" name="inputcoupon" placeholder="Купон код энд оруулна уу"><br>
-                <ul class="price1">
-                    
-                        <p>Нийт Бараа : 188₮</p>
-                    
-                        <p>Хүргэлт Дараагийн хэсэгт бодогдоно</p>
-                    
-                    <hr class="otherHr">
-                    
-                        <p>Нийт: 188$</p>
-                
-                </ul>
-                <input href="#" class="btn" type="submit" value="Худалдан авах">
+            <div class="col-sm-5">
+                <div class="" style="height: 80px;"></div>
+                <div class="border">
+                    <img src="/img/accessory-1.webp" alt="" style="width: 150px; height: 150px; float: left;" class="mr-4">
+                    <h2>Playstation 5</h2>
+                    <p>Багтаамж : 825GB</p>
+                    <p>Тоо ширхэг : 1</p>
+                    <h2>$499</h2s>
+                </div>
+                <hr class="my-4 bg-dark" style="height: 1px;">
+                <div class="border ">
+                    <img src="/img/accessory-1.webp" alt="" style="width: 150px; height: 150px; float: left;" class="mr-4">
+                    <h2>Playstation 5</h2>
+                    <p>Багтаамж : 825GB</p>
+                    <p>Тоо ширхэг : 1</p>
+                    <h2>$499</h2s>
+                </div>
+                <hr class="my-4 bg-dark" style="height: 1px;">
+                <p>Нийт бараа $188</p>
             </div>
-    </main>
-
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
     <footer>
         <nav>
             <ul>
@@ -239,7 +174,6 @@
             <p>Хөгжүүлсэн SET</p>
         </nav>
     </footer>
-    
-    
 </body>
+
 </html>
