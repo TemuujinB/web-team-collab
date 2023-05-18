@@ -19,9 +19,6 @@ class ProductDescrip extends HTMLElement {
                                         <button id="buybtn">BUY</button>
                                         <button id="addcart"><i class="fa-solid fa-cart-plus"></i></button>
                                     </li>
-                                    <li id="more">
-                                        <button>ДЭЛГЭРЭНГҮЙ</button>
-                                    </li>
                                 </ul>
                             </nav>
                         </article>`

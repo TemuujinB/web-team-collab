@@ -12,7 +12,7 @@ class PsOneProduct extends HTMLElement {
             <nav>
                 <li><img src="${image}" alt=""></li>
                 <li class="name">${name}</li>
-                <p class="price">Үнэ: ${price}</p>
+                <p class="price">Үнэ: ${price}$</p>
                 <li class="oneline" id="one">
                     <button id="buybtn">BUY</button>
                     <button role="button" id="addcart">

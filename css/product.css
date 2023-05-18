@@ -35,43 +35,9 @@ li{
     flex-direction: column;
     font-size: 1.4em;
 }
-.oneline{
-    width: 100%;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.oneline #buybtn{
-    background-color: white;
-    width: 73%;
-    border-radius: 10px ;
-}
-.oneline #addcart{
-    background-color: white;
-    width: 25%;
-    border-radius: 10px ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#more{
-    width: 100%;
-    height: 30px;
-}
-#more button{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    border: 1px solid black;
-}
 .description{
-    font-size: 0.9rem;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 .price{
     opacity: 0.5;

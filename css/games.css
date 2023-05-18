@@ -1,0 +1,28 @@
+#accessories{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    padding: 1%;
+    align-items: flex-end;
+}
+#games{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    padding: 1%;
+    align-items: flex-end;
+}
+.eachProd{
+    width: 250px;
+    display: flex;
+    margin: 30px;
+}
+.eachProd img{
+    width: 100%;
+}
+.oneline #buybtn{
+    width: 65vw;
+}
+.oneline #addcart{
+    width: 25vw;
+}

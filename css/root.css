@@ -17,7 +17,35 @@
 }
 body {
     font-family: var(--main_font);
+    margin: 0;
 }
 button {
     text-decoration: none;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+li{
+    list-style: none;
+    margin: 0;
+}
+.oneline{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.oneline #buybtn{
+    width: 73%;
+    border-radius: 10px ;
+}
+.oneline #addcart{
+    width: 25%;
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oneline button:hover{
+    background-color: #a9adb4;
 }
