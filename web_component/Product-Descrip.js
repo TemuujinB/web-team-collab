@@ -10,7 +10,7 @@ class ProductDescrip extends HTMLElement {
     #Render(product){
         this.innerHTML = `<article>
                             <nav class="product">
-                                <ul class="product"><img src="${product.image}" alt=""></ul>
+                                <ul class="product"><img src="${product.image}" alt="Product image"></ul>
                                 <ul class="information">
                                     <li class="Pname"><h3>${product.name}</h3></li>
                                     <li class="price">Үнэ: ${product.price}</li>

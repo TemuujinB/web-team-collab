@@ -11,7 +11,7 @@
 				"href": "advertising.html",
 				"text": "Learn More"
 			},
-			"style": "background-image: url('image1.jpg');"
+			"image": "image1.jpg"
 		},
 		{
 			"title": "Xbox Series X",
@@ -24,7 +24,7 @@
 				"href": "advetising.html",
 				"text": "Learn More"
 			},
-			"style": "background-image: url('image2.jpg');"
+			"image": "image2.jpg"
 		},
 		{
 			"title": "Xbox Series S",
@@ -37,7 +37,7 @@
 				"href": "advetising.html",
 				"text": "Learn More"
 			},
-			"style": "background-image: url('image3.jpg');"
+			"image": "image3.jpg"
 		},
 		{
 			"title": "Nintendo Switch",
@@ -50,7 +50,7 @@
 				"href": "advetising.html",
 				"text": "Learn More"
 			},
-			"style": "background-image: url('image3.jpg');"
+			"image": "image3.jpg"
 		},
 		{
 			"title": "Xbox One X",
@@ -63,7 +63,7 @@
 				"href": "advetising.html",
 				"text": "Learn More"
 			},
-			"style": "background-image: url('image3.jpg');"
+			"image": "image3.jpg"
 		},
 		{
 			"title": "Playstation 4",
@@ -76,7 +76,7 @@
 				"href": "advetising.html",
 				"text": "Learn More"
 			},
-			"style": "background-image: url('image3.jpg');"
+			"image": "image3.jpg"
 		}
 	]
 }
