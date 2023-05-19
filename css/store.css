@@ -1,6 +1,8 @@
 body{
     margin: 0;
     background-color: var(--background_color);
+    /* display: flex; */
+    /* align-items: center; */
 }
 main{
     width: var(--slide_width);
@@ -8,21 +10,15 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-button{
-    background-color: white;
-    height: 3vh;
-    width: 6vw;
-}
 .content{
     margin-bottom: 2rem;
-    margin-top: 550px;
+    margin-top: 38vw;
 }
 .eachProd{
-    width: 13%;
-    height: 20rem;
+    width: 100%;
+    height: 25vw;
     display: flex;
     align-items: flex-end;
-    margin: 1rem;
 }
 /* #consoles_list{
     width: var(--slide_width);
@@ -39,12 +35,6 @@ button{
     width: var(--console_img_width);
     height: var(--console_img_height);
 }
-/* #accessories_list{
-    width: var(--slide_width);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-} */
 #accessories_list{
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
@@ -54,12 +44,6 @@ button{
     width: var(--console_img_width);
     height: var(--console_img_height);
 }
-/* #games_list{
-    width: var(--slide_width);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-} */
 #games_list{
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
@@ -102,12 +86,13 @@ button{
 }
 .slidershow{
     width: 100%;
-    height: 550px;
+    height: auto;
     overflow: hidden;
 }
-.middle{
+.middle1{
     position: absolute;
-    top: 45%;
+    height: 40vw;
+    top: 21vw;
     left: 50%;
     transform: translate(-50%,-50%);
 }
