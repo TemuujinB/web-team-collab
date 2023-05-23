@@ -19,6 +19,7 @@ main{
     height: 25vw;
     display: flex;
     align-items: flex-end;
+    /* margin: 1%; */
 }
 /* #consoles_list{
     width: var(--slide_width);
@@ -30,6 +31,7 @@ main{
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
     justify-content: center;
+    /* margin: 1%; */
 }
 #consoles_list img{
     width: var(--console_img_width);
@@ -52,6 +54,15 @@ main{
 #games_list img{
     width: var(--console_img_width);
     height: var(--console_img_height);
+}
+.seemore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 3vw;
+    align-items: center;
 }
 .oneline{
     display: flex;

@@ -23,6 +23,9 @@
 // //             document.getElementById('').appendChild(eachProduct);
 // //         })
 // //     })
+
+// const { access } = require("fs");
+
 // //     .catch(error=>console.log(error));
 class Store {
 
@@ -80,19 +83,35 @@ class Store {
     // }
 }
 
-fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
+fetch('http://localhost:4000/api')
     .then(response => response.json())
     .then(data => {
         console.log("ogogdol: ", data);
-        const console_data = data.record.product[0].consoles.slice(2, 7).map(dt => new Store(dt));
-        const game_data = data.record.product[1].games.slice(5, 10).map(dt => new Store(dt));
-        const accessory_data = data.record.product[2].accessories.slice(5, 10).map(dt => new Store(dt));
-        const gameList = game_data.map(i => i.Render()).join('');
-        const consoleList = console_data.map(i => i.Render()).join('');
-        const accessoriesList = accessory_data.map(i => i.Render()).join('');
-        document.getElementById("games_list").innerHTML = gameList;  
-        document.getElementById("consoles_list").innerHTML = consoleList;
-        document.getElementById("accessories_list").innerHTML = accessoriesList;
+        const consoles = [];
+        const accessories = [];
+        const games = [];
+        data.map(dy=>{
+            if(dy.type == 'consoles'){
+                consoles.push(dy)
+            }else if(dy.type == 'accessories')
+                accessories.push(dy)
+            else
+                games.push(dy)
+        document.getElementById("consoles_list").innerHTML =  consoles.map(dt=> new Store(dt)).map(i=>i.Render()).join(""); 
+        document.getElementById("accessories_list").innerHTML =  accessories.map(dt=> new Store(dt)).map(i=>i.Render()).join(""); 
+        document.getElementById("games_list").innerHTML =  games.map(dt=> new Store(dt)).map(i=>i.Render()).join(""); 
+        
+        })
+        
+        // const console_data = data.record.product[0].consoles.slice(2, 7).map(dt => new Store(dt));
+        // const game_data = data.record.product[1].games.slice(5, 10).map(dt => new Store(dt));
+        // const accessory_data = data.record.product[2].accessories.slice(5, 10).map(dt => new Store(dt));
+        // const gameList = game_data.map(i => i.Render()).join('');
+        // const consoleList = console_data.map(i => i.Render()).join('');
+        // const accessoriesList = accessory_data.map(i => i.Render()).join('');
+        // document.getElementById("games_list").innerHTML = gameList;  
+        // document.getElementById("consoles_list").innerHTML = consoleList;
+        // document.getElementById("accessories_list").innerHTML = accessoriesList;
 })
 
 
