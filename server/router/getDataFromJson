@@ -1,0 +1,62 @@
+const fs = require('fs');
+const { Pool } = require('pg');
+
+// PostgreSQL connection configuration
+const dbConfig = {
+  user: 'postgres',
+  password: '0227',
+  host: 'localhost',
+  port: 5432,
+  database: 'Store',
+};
+
+// Path to your JSON file
+const jsonFile = 'C:/Users/soko7/OneDrive/Documents/GitHub/web-team-collab/js/product.json';
+
+// Create a new PostgreSQL pool
+const pool = new Pool(dbConfig);
+
+// Read and parse the JSON file
+const jsonData = JSON.parse(fs.readFileSync(jsonFile));
+
+// Function to insert data into PostgreSQL
+async function insertData() {
+  const client = await pool.connect();
+
+  try {
+    // Create a table in PostgreSQL
+    await client.query(`
+      CREATE TABLE IF NOT EXISTS product (
+        name character varying(40),
+        detail character varying(400),
+        price money,
+        type character varying(15),
+        image character varying(150),
+        id character varying(15)
+      );
+    `);
+
+    // Iterate over the parsed JSON data and insert into PostgreSQL
+    for (const item of jsonData) {
+      const { namel,detaill,pricel,typel,imagel,idl } = item;
+
+      // Insert the values into the PostgreSQL table
+      await client.query(`
+        INSERT INTO your_table_name (name,detail,price,type,image,id)
+        VALUES ($1, $2, $3, $4, $5, $6);
+      `, [namel,detaill,pricel,typel,imagel,idl]);
+    }
+
+    console.log('Data inserted successfully.');
+  } catch (error) {
+    console.error('Error inserting data:', error);
+  } finally {
+    // Release the database connection
+    client.release();
+    // Close the PostgreSQL pool
+    await pool.end();
+  }
+}
+
+// Call the function to insert the data
+insertData();

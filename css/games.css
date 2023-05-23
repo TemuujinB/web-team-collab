@@ -13,7 +13,7 @@
 .eachProd{
     width: 100%;
     display: flex;
-    margin: 30px;
+    /* margin: 30px; */
 }
 .eachProd img{
     width: 100%;

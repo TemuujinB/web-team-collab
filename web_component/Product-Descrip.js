@@ -5,6 +5,7 @@ class ProductDescrip extends HTMLElement {
         const urlParams = new URLSearchParams(mykeyValues);
         this.id = urlParams.get('id').toString();
         this.type = urlParams.get('type').toString();
+        
         //
     }
     #Render(product){
@@ -27,9 +28,41 @@ class ProductDescrip extends HTMLElement {
         return `<ps-one_product image="${prod.image}" name="${prod.name}" price="${prod.price}" id="${prod.id}" type="${prod.type}"></ps-one_product>`
     }
     connectedCallback() {
-        fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
-            .then(res=>res.json())
-            .then(data=>{
+        // fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
+        //     .then(res=>res.json())
+        //     .then(data=>{
+        //         const str = this.id;
+        //         const str2 = this.type;
+        //         const regexp = /"([^"]*)"/;
+        //         const match = str.match(regexp);
+        //         const match2 = str2.match(regexp);
+        //         const resultId = match[1];
+        //         const resultType = match2[1];
+        //         console.log("type: ",resultId);
+        //         console.log("type: ",resultType);
+        //         let products;
+        //         if(resultType == 'consoles'){
+        //             products = data.record.product[0][resultType];
+        //         }
+        //         else if(resultType == 'accessories'){
+        //             products = data.record.product[2][resultType];
+        //         }
+        //         else if(resultType == 'games'){
+        //             products = data.record.product[1][resultType];
+        //         } 
+        //         products.map(product=>{
+        //             if(product.id == resultId){
+        //                 console.log(product)
+        //                 this.#Render(product);
+        //             }
+        //         })
+        //         const similarPro = products.slice(0, 3).map(dt => this.similarRender(dt)).join('');
+        //         document.getElementById("likely").innerHTML = similarPro;
+        //     })
+        // console.log(this.children[0]);
+        fetch('http://localhost:4000/api')
+            .then(response => response.json())
+            .then(data => {
                 const str = this.id;
                 const str2 = this.type;
                 const regexp = /"([^"]*)"/;
@@ -37,30 +70,21 @@ class ProductDescrip extends HTMLElement {
                 const match2 = str2.match(regexp);
                 const resultId = match[1];
                 const resultType = match2[1];
-                console.log("type: ",resultId);
+                console.log("id: ",resultId);
                 console.log("type: ",resultType);
-                let products;
-                if(resultType == 'consoles'){
-                    products = data.record.product[0][resultType];
-                }
-                else if(resultType == 'accessories'){
-                    products = data.record.product[2][resultType];
-                }
-                else if(resultType == 'games'){
-                    products = data.record.product[1][resultType];
-                } 
-                products.map(product=>{
-                    if(product.id == resultId){
-                        console.log(product)
-                        this.#Render(product);
+                console.log(data);
+                data.map(dt=>{
+                    if(dt.type == resultId){
+                        console.log(dt.type);
+                        this.#Render(dt)
                     }
                 })
-                const similarPro = products.slice(0, 3).map(dt => this.similarRender(dt)).join('');
-                document.getElementById("likely").innerHTML = similarPro;
             })
-        console.log(this.children[0]);
-        
-         
+            .catch(error => {
+                // Handle any errors that occur during the request
+                console.error('Error:', error);
+            });
+
     }
 
     disconnectedCallback() {
