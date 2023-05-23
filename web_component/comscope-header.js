@@ -6,7 +6,7 @@ class ComscopeHeader extends HTMLElement {
     render(){
         this.innerHTML = `
         <nav class="left">
-            <ul><img src="../img/logo.png"></ul>
+            <ul><img src="../img/logo.png" alt="logo"></ul>
             <ul><a href="../index.html">COMSCOPE</a></ul>
         </nav>
         <nav class="middle">

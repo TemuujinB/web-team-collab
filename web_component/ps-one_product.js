@@ -10,12 +10,12 @@ class PsOneProduct extends HTMLElement {
         this.innerHTML = `
         <article class="eachProd">
             <nav>
-                <li><img src="${image}" alt=""></li>
+                <li><img src="${image}" alt="Product image"></li>
                 <li class="name">${name}</li>
                 <p class="price">Үнэ: ${price}$</p>
                 <li class="oneline" id="one">
-                    <button id="buybtn">BUY</button>
-                    <button role="button" id="addcart">
+                    <button id="buybtn" type="button">BUY</button>
+                    <button role="button" id="addcart" type="button">
                         <i class="fa-solid fa-cart-plus"></i>
                     </button>
                 </li>
