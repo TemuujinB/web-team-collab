@@ -42,7 +42,7 @@ li{
 .price{
     opacity: 0.5;
 }
-.back{
+/* .back{
     margin-left: 5%;
     width: 90%;
     height: 80vh;
@@ -52,9 +52,12 @@ li{
     font-size: 1.5em;
     margin-top: 10vh;
     margin-bottom: 10vh;
-}
+} */
 #likely{
-    width: 100%;
+    width: 90%;
+    height: 65vh;
+    margin-left: 5%;
+    margin-bottom: 12vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

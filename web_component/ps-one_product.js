@@ -14,8 +14,8 @@ class PsOneProduct extends HTMLElement {
                 <li class="name">${name}</li>
                 <p class="price">Үнэ: ${price}$</p>
                 <li class="oneline" id="one">
-                    <button id="buybtn" type="button" area-label="buybutton">BUY</button>
-                    <button role="button" id="addcart" type="button">
+                    <button id="buybtn" type="button" aria-label="Buy button">BUY</button>
+                    <button role="button" id="addcart" type="button" aria-label="Add to Cart button">
                         <i class="fa-solid fa-cart-plus"></i>
                     </button>
                 </li>
@@ -40,14 +40,16 @@ class PsOneProduct extends HTMLElement {
                 product:this
             }
         })
-        this.children[0].children[0].children[3].children[1].addEventListener("click", (e) => {
+        this.children[0].children[0].children[3].children[1].addEventListener("pointerdown", (e) => {
+            console.log(e);
+            
             const myCart = document.querySelector("shopping-cart");
             myCart.AddToCart(this);
         });
         
         this.children[0].children[0].children[3].children[1].dispatchEvent(thisElement);
         
-        this.children[0].children[0].children[3].children[0].addEventListener("click", () => {
+        this.children[0].children[0].children[3].children[0].addEventListener("pointerdown", () => {
             window.location.href = url + this.queryString+this.queryString2;
         })
     }

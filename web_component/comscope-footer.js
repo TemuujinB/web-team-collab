@@ -1,17 +1,18 @@
 class ComscopeFooter extends HTMLElement {
     constructor() {
         super();
-        const shadowroot = this.attachShadow({mode:"open"});
+        this.attachShadow({mode:"open"});
         let template;
         template=    `
         <style> 
+            @import url('../css/root.css');
             svg{
                 width:40px;
                 margin:7px;
             }
             a{
                 text-decoration: none;
-                color: white;
+                color: var(--text_color);
             }
             ul{
                 list-style: none;

@@ -54,3 +54,29 @@ header {
 .articles-3content {
     width: 33%;
 }
+.image1{
+    background-image: url(../img/console1.jpg);
+}
+.image2{
+    background-image: url(../img/console2.jpg);
+}
+.image3{
+    background-image: url(../img/console3.jpg);
+}
+.image4{
+    background-image: url(../img/console4.jpg);
+}
+.image5{
+    background-image: url(../img/console5.jpg);
+}
+.image6{
+    background-image: url(../img/console6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image7{
+    background-image: url(../img/console7.jpg);
+}
+.image8{
+    background-image: url(../img/console8.jpg);
+}

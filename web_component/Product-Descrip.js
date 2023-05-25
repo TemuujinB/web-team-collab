@@ -73,13 +73,17 @@ class ProductDescrip extends HTMLElement {
                 console.log("id: ",resultId);
                 console.log("type: ",resultType);
                 console.log(data);
+                const similarList = [];
                 data.map(dt=>{
                     if(dt.id == resultId){
-                        console.log(dt.type);
                         this.#Render(dt)
                     }
+                    if(dt.type==resultType){
+                        similarList.push(dt);
+                    }
                 })
-                data.filter(dy => resultType == dy.type).map(dt => this.similarRender(dt)).join("");
+                const result = similarList.map(dt => this.similarRender(dt)).slice(0,3).join("");
+                document.getElementById("likely").innerHTML = result;
             })
             .catch(error => {
                 // Handle any errors that occur during the request
@@ -92,7 +96,20 @@ class ProductDescrip extends HTMLElement {
     }
 
     attributeChangedCallback(name, oldVal, newVal) {
-        //
+        // console.log(document.querySelector("nav"));
+        
+        switch(newVal){
+            case "simple":
+                // document.querySelector("nav").style.backgroundColor = "var(--similarPro_back)"; 
+                break;
+            case "light":
+            //   document.querySelector("nav").style.backgroundColor = "var(--similarPro_back)";
+              document.querySelector("nav").style.boxShadow = "0px 0px 20px #bc13fe";
+                break;
+        }
+    }
+    static get observedAttributes() {
+        return ["color","theme"]
     }
 
     adoptedCallback() {

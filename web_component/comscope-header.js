@@ -44,9 +44,10 @@ class ComscopeHeader extends HTMLElement {
     }
 
     attributeChangedCallback(name, oldVal, newVal) {
-    
+        
     }
-
+        
+        // console.log(document.querySelector("comscope-header"));
     adoptedCallback() {
     
     }
