@@ -35,6 +35,7 @@ class GetAllPro{
 fetch('http://localhost:4000/api')
     .then(dat=>dat.json())
     .then(com=>{
+        
         console.log("ogogdol: ", com);
         const accessories = [];
         const games = [];
