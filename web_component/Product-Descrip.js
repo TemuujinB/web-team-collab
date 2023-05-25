@@ -74,17 +74,17 @@ class ProductDescrip extends HTMLElement {
                 console.log("type: ",resultType);
                 console.log(data);
                 data.map(dt=>{
-                    if(dt.type == resultId){
+                    if(dt.id == resultId){
                         console.log(dt.type);
                         this.#Render(dt)
                     }
                 })
+                data.filter(dy => resultType == dy.type).map(dt => this.similarRender(dt)).join("");
             })
             .catch(error => {
                 // Handle any errors that occur during the request
                 console.error('Error:', error);
             });
-
     }
 
     disconnectedCallback() {

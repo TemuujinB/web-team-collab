@@ -39,48 +39,8 @@ class Store {
     }
 
     Render(){
-        // return `<article class="eachProd">
-        //     <nav>
-        //         <li><img src="${this.image}" alt=""></li>
-        //         <li class="name">${this.name}</li>
-        //         <p class="price">Үнэ: ${this.price}</p>
-        //         <li class="oneline" id="one">
-        //             <button id="buybtn">BUY</button>
-        //             <button role="button" id="addcart">
-        //                 <i class="fa-solid fa-cart-plus"></i>
-        //             </button>
-        //         </li>
-        //     </nav>
-        // </article> `
         return `<ps-one_product image="${this.image}" name="${this.name}" price="${this.price}" id="${this.id}" type="${this.type}"></ps-one_product>`
-
-    
-
-        // const btn = document.getElementById('addcart')
-        // btn.addEventListener('click', ()=>{
-        //     console.log('hello')
-        // })
-
     }
-    // connectedCallback() {
-
-    //     console.log("duudah");
-    //     console.log(this.children[0].children[0].children[3].children[1]);
-
-    //     this.children[0].children[0].children[3].children[1].addEventListener("click", ()=>{
-    //         console.log("daragdlaa");
-    //     })
-    //     // console.log('clicked');
-    //     this.querySelector("button").addEventListener("click", () => {
-    //         const myCart = document.querySelector("sags");
-    //         console.log('clicked');
-    //         myCart.AddToCart(this);
-    //     })
-    //     // this.querySelector("buybtn").addEventListener("click", ()=>{
-    //     //     const myProd = new product(this);
-    //     //     console.log("myProd: ",myProd);
-    //     // })
-    // }
 }
 
 fetch('http://localhost:4000/api')
@@ -95,60 +55,11 @@ fetch('http://localhost:4000/api')
                 consoles.push(dy)
             }else if(dy.type == 'accessories')
                 accessories.push(dy)
-            else
+            else if(dy.type == 'games')
                 games.push(dy)
-        document.getElementById("consoles_list").innerHTML =  consoles.map(dt=> new Store(dt)).map(i=>i.Render()).join(""); 
-        document.getElementById("accessories_list").innerHTML =  accessories.map(dt=> new Store(dt)).map(i=>i.Render()).join(""); 
-        document.getElementById("games_list").innerHTML =  games.map(dt=> new Store(dt)).map(i=>i.Render()).join(""); 
+        document.getElementById("consoles_list").innerHTML =  consoles.map(dt=> new Store(dt)).map(i=>i.Render()).slice(0,5).join(""); 
+        document.getElementById("accessories_list").innerHTML =  accessories.map(dt=> new Store(dt)).map(i=>i.Render()).slice(0,5).join(""); 
+        document.getElementById("games_list").innerHTML =  games.map(dt=> new Store(dt)).map(i=>i.Render()).slice(0,5).join(""); 
         
         })
-        
-        // const console_data = data.record.product[0].consoles.slice(2, 7).map(dt => new Store(dt));
-        // const game_data = data.record.product[1].games.slice(5, 10).map(dt => new Store(dt));
-        // const accessory_data = data.record.product[2].accessories.slice(5, 10).map(dt => new Store(dt));
-        // const gameList = game_data.map(i => i.Render()).join('');
-        // const consoleList = console_data.map(i => i.Render()).join('');
-        // const accessoriesList = accessory_data.map(i => i.Render()).join('');
-        // document.getElementById("games_list").innerHTML = gameList;  
-        // document.getElementById("consoles_list").innerHTML = consoleList;
-        // document.getElementById("accessories_list").innerHTML = accessoriesList;
 })
-
-
-// class Store extends HTMLElement {
-//     constructor() {
-//         super();
-//         this.attachShadow({mode: "open"})
-//         //implementation
-//     }
-//     #Render(product){
-//         this.shadowRoot.innerHTML = `
-//             <div>
-//                 <p>hello</p>
-//             </div>
-//         `
-//     }
-
-//     connectedCallback() {
-//         fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
-//             .then(res = res.json())
-//             .then(data=>{
-//                 console.log(data)
-//             })
-//     }
-
-//     disconnectedCallback() {
-//         //implementation
-//     }
-
-//     attributeChangedCallback(name, oldVal, newVal) {
-//         //implementation
-//     }
-
-//     adoptedCallback() {
-//         //implementation
-//     }
-
-// }
-
-// window.customElements.define('each-product', Store);

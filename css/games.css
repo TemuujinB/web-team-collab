@@ -1,10 +1,24 @@
+
 #accessories{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
     justify-content: space-between;
     align-items: flex-end;
 }
+.eachProd{
+    transition: transform .5s;
+}
+.eachProd:hover img{
+    transform: scale(1.1);
+    z-index: -1;
+}
 #games{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
     justify-content: space-between;
@@ -17,12 +31,6 @@
 }
 .eachProd img{
     width: 100%;
-}
-.oneline #buybtn{
-    width: 65%;
-}
-.oneline #addcart{
-    width: 25%;
 }
 @media screen and (max-width: 992px) {
     #accessories{

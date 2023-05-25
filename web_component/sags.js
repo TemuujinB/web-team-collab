@@ -2,6 +2,7 @@ import html from "../js/utility.js";
 class sags extends HTMLElement{
     constructor(){
         super();
+        // const shadowroot = this.attachShadow({mode:"open"});
         this.products = [];
         this.render();
     }
@@ -15,7 +16,16 @@ class sags extends HTMLElement{
     </svg> */
     render(){
         const len = (localStorage.getItem("product_len"));
-        this.innerHTML= `<div class="count" id="count">${len}<div>`
+        this.innerHTML= `<div class="count" id="count" style=" height: 15px;
+        width: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        border: 1px solid black;
+        border-radius: 15px;
+        position: sticky;
+        bottom: 0;">${len}<div>`
     }
     get productCount() {
         return this.products.length;
@@ -25,7 +35,6 @@ class sags extends HTMLElement{
         this.render();
         localStorage.setItem("product_len", this.products.length);
         localStorage.setItem('myProducts', JSON.stringify(this.products));
-        console.log(this.products);
         
     }
     connectedCallBack(){

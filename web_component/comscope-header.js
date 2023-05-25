@@ -1,7 +1,14 @@
 class ComscopeHeader extends HTMLElement {
     constructor() {
         super();
+        // this.attachShadow({mode:"open"});
+        // const mode = this.getAttribute("mode");
         this.render();
+        // var sheet = document.createElement('style');
+        const url = '../Buy section/Cart2.html';
+        this.children[2].children[0].children[0].children[0].addEventListener("click",()=>{
+            window.location.href= url;
+        })
     }
     render(){
         this.innerHTML = `
@@ -20,12 +27,11 @@ class ComscopeHeader extends HTMLElement {
         <nav class="right">
             <ul>
                 <li>
-                    <a href="../Buy section/Cart2.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <i class="fa-solid fa-cart-shopping"></i>
                     <shopping-cart></shopping-cart>
                 </li>
             </ul>
-        </nav>
-        `
+        </nav>`
     }
 
     connectedCallBack(){

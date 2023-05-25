@@ -17,39 +17,36 @@ class ComponentCard extends HTMLElement {
         const myProducts = localStorage.getItem("myProducts");
         console.log(myProducts);
         const list = JSON.parse(myProducts);
-        const idlist = list.map(i=>i.queryString);
-        console.log(idlist);
-        const str = idlist.toString();
+        // const idlist = []
+        // idlist.push(list.map(i=>i.queryString));
 
-        const regexp = /"([^"]*)"/;
-        const match = str.match(regexp);
-        console.log(match)
+        // console.log("id list:",idlist);
+        // const str = idlist.toString();
+
+        const regexp = /(\d+)/;
+        // const match = idlist.map(i=>i.match(regexp));
+        // console.log(match)
+
+        const test = list.map(i=>i.queryString).map(i=>i.match(regexp))
+        console.log("test:",test);
+        
+
         // const resultId = match[1];
 
-        // fetch('https://api.jsonbin.io/v3/b/64341dbaebd26539d0a83299')
-        //     .then(response => response.json())
-        //     .then(data => {
-        //         const str = this.id;
-        //         const str2 = this.type;
-        //         const regexp = /"([^"]*)"/;
-        //         const match = str.match(regexp);
-        //         const match2 = str2.match(regexp);
-        //         const resultId = match[1];
-        //         const resultType = match2[1];
-        //         console.log("id: ",resultId);
-        //         console.log("type: ",resultType);
-        //         console.log(data);
-        //         data.map(dt=>{
-        //             if(dt.type == resultId){
-        //                 console.log(dt.type);
-        //                 this.#Render(dt)
-        //             }
-        //         })
-        //     })
-        //     .catch(error => {
-        //         // Handle any errors that occur during the request
-        //         console.error('Error:', error);
-        //     });
+        fetch('http://localhost:4000/api')
+            .then(response => response.json())
+            .then(data => {
+                data.map(dt=>{
+                    if(dt.id == test){
+                        console.log(dt.type);
+                        this.render(dt)
+                    }
+                })
+            })
+            .catch(error => {
+                // Handle any errors that occur during the request
+                console.error('Error:', error);
+            });
     }
 
     disconnectedCallback() {

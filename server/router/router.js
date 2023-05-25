@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
 //get product by id
 router.get('/:id', (req, res) => {
   const { id } = req.params;
-  pool.query('SELECT json_agg(store.product.*) FROM store.product WHERE id = $1', [id], (err, result) => {
+  pool.query('SELECT json_agg(store.product.*) FROM store.product WHERE id = $1',[id], (err, result) => {
     if (err) {
       console.log(err);
       res.status(500).send('Error!');

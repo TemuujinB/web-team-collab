@@ -14,7 +14,7 @@ class PsOneProduct extends HTMLElement {
                 <li class="name">${name}</li>
                 <p class="price">Үнэ: ${price}$</p>
                 <li class="oneline" id="one">
-                    <button id="buybtn" type="button">BUY</button>
+                    <button id="buybtn" type="button" area-label="buybutton">BUY</button>
                     <button role="button" id="addcart" type="button">
                         <i class="fa-solid fa-cart-plus"></i>
                     </button>
@@ -33,10 +33,20 @@ class PsOneProduct extends HTMLElement {
         this.queryString = searchParams.toString();
         this.queryString2 = searchParams2.toString();
 
-        this.children[0].children[0].children[3].children[1].addEventListener("click", () =>{
+        const thisElement = new CustomEvent("productAdd",{
+            bubbles:true,
+            composed:true,
+            detail:{
+                product:this
+            }
+        })
+        this.children[0].children[0].children[3].children[1].addEventListener("click", (e) => {
             const myCart = document.querySelector("shopping-cart");
             myCart.AddToCart(this);
-        })
+        });
+        
+        this.children[0].children[0].children[3].children[1].dispatchEvent(thisElement);
+        
         this.children[0].children[0].children[3].children[0].addEventListener("click", () => {
             window.location.href = url + this.queryString+this.queryString2;
         })
