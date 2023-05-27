@@ -95,4 +95,15 @@ a{
             0 0 2.8rem #bc13fe,
             inset 0 0 1.3rem #bc13fe; 
         }
+    @media screen and (max-width: 992px) {
+        :root{
+            --header_background: white;
+            --footer_background:#f5f5f7 ;
+            --body_background_color:rgb(246, 247, 249);
+            --text_color: black;
+        }
+        header{
+            box-shadow: none;
+        }
+    }
 }

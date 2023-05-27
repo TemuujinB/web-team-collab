@@ -153,3 +153,37 @@ input[name="r"]{
 #r3:checked~ .s1{
     margin-left: -40%;
 }
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .middle{
+        display: none;
+    }
+    .fa-user{
+        display: none;
+    }
+    comscope-header{
+        display: none;
+    }
+    comscope-footer{
+        display: none;
+    }
+    mobile-header{
+        display: inline;
+    }
+    #games_list{
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+    }
+    #accessories_list{
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+    }
+    #consoles_list{
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+    }
+}

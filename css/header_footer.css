@@ -11,7 +11,7 @@ comscope-header{
     justify-content: space-between;
 }
 header{
-    height: 2.5vw;
+    height: 40px;
     /* background-color: var(--header_background); */
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ header nav ul{
     justify-content: space-evenly;
 }
 .left img {
-    width: 95%;
+    width: 35px;
 }
 .middle{
     width: 50%;
@@ -60,14 +60,23 @@ header nav ul{
     flex-direction: row;
 }
 mobile-header{
-    display: none;
+    display: none !important;
 }
 mobile-footer{
     display: none !important;
 }
 @media screen and (max-width: 992px) {
+    comscope-header{
+        display: none;
+    }
+    comscope-footer{
+        display: none;
+    }
+    mobile-header{
+        display: flex !important;
+    }
     mobile-footer{
-        display: inline;
+        display: flex !important;
     }
 }
 @media screen and (max-width: 600px) {
@@ -81,14 +90,5 @@ mobile-footer{
     }
     .fa-user{
         display: none;
-    }
-    comscope-header{
-        display: none;
-    }
-    comscope-footer{
-        display: none;
-    }
-    mobile-header{
-        display: inline;
     }
 }

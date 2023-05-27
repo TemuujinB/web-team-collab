@@ -17,7 +17,7 @@ class ProductDescrip extends HTMLElement {
                                     <li class="price">Үнэ: ${product.price}</li>
                                     <li class="description">${product.detail}</li>
                                     <li class="oneline" id="one">
-                                        <button id="buybtn">BUY</button>
+                                        <button id="buybtn" class="button1">BUY</button>
                                         <button id="addcart"><i class="fa-solid fa-cart-plus"></i></button>
                                     </li>
                                 </ul>

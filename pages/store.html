@@ -7,6 +7,7 @@
     <meta name="description" content="store playstation console xbox accessories games ">
     <title>store</title>
     <link rel="stylesheet" href="../css/header_footer.css">
+    <!-- <link rel="stylesheet" href="../css/mobile_header_footer.css"> -->
     <link rel="stylesheet" href="/Buy section/css for buy section/main.css">
     <link rel="stylesheet" href="../css/store.css">
     <link rel="stylesheet" href="../css/root.css">
@@ -18,13 +19,16 @@
     <script src="../js/store.js"></script>
     <script type="module" src="../web_component/comscope-header.js"></script>
     <script type="module" src="../web_component/comscope-footer.js"></script>
+    <script type="module" src="../web_component/mobile-header.js"></script>
+    <!-- <script type="module" src="../web_component/mobile-footer.js"></script> -->
     <script type="module" src="../web_component/ps-one_product.js"></script>
     <script type="module" src="../web_component/ps-local.js"></script>
         <script type="module" src="../web_component/sags.js"></script>
 </head>
 <body>
     <header>
-        <comscope-header color="var(--theme)"></comscope-header>
+        <comscope-header></comscope-header>
+        <mobile-header></mobile-header>
     </header>
     <main>
         <div class="slidershow middle1">
@@ -48,29 +52,30 @@
                     <h3>CONSOLE</h3>
                     <a href="console.html">SEE MORE></a>
                 </li>
-                <li id="consoles_list">
+                <section id="consoles_list">
                     
-                </li>
+                </section>
             </ul>
             <ul>
                 <li class="seemore">
                     <h3>ACCESSORIES</h3>
                     <a href="accessories.html">SEE MORE></a>
                 </li>
-                <li id="accessories_list"></li>
+                <section id="accessories_list"></section>
             </ul>
             <ul>
                 <li class="seemore">
                     <h3>GAMES</h3>
                     <a href="games.html">SEE MORE></a>
                 </li>
-                <li id="games_list"></li>
+                <section id="games_list"></section>
             </ul>
         </nav>
         <ps-local></ps-local>
     </main>
     <footer>
         <comscope-footer></comscope-footer>
+        <mobile-footer></mobile-footer>
     </footer>
 </body>
 </html>
