@@ -95,7 +95,7 @@ a{
             0 0 2.8rem #bc13fe,
             inset 0 0 1.3rem #bc13fe; 
         }
-    @media screen and (max-width: 992px) {
+    /* @media screen and (max-width: 992px) {
         :root{
             --header_background: white;
             --footer_background:#f5f5f7 ;
@@ -105,5 +105,5 @@ a{
         header{
             box-shadow: none;
         }
-    }
+    } */
 }
