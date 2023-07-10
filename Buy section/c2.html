@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c.css">
+    <script src="test.jss"></script>
+    <title>Худалдаж авах</title>
+
+    <script src="https://kit.fontawesome.com/4d9b41b2cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/mobile_header_footer.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/root.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <script type="module" src="../web_component/Product-Descrip.js"></script>
+    <script type="module" src="../web_component/comscope-header.js"></script>
+    <script type="module" src="../web_component/comscope-footer.js"></script>
+    <script type="module" src="../web_component/ps-one_product.js"></script>
+    <script type="module" src="../web_component/mobile-footer.js"></script>
+    <script type="module" src="../web_component/mobile-footer.js"></script>
+    <script type="module" src="../web_component/sags.js"></script>
+</head>
+<body>
+    <header>
+        <comscope-header></comscope-header>
+        <mobile-header></mobile-header>
+    </header>
+
+    <section class="Small-Header">
+
+    </section>
+
+    <section class="Billing-Address">
+        <h1>Billing Address</h1>
+        <form action="">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="street">Street Address:</label>
+            <input type="text" id="street" name="street" required><br><br>
+
+            <label for="state">State/Province:</label>
+            <select id="state" name="state">
+                <option value="">Сонгох...</option>
+                <option value="1">Улаанбаатар</option>
+                <option value="2">Орхон</option>
+                <option value="3">Хөвсгөл</option>
+                <option value="4">Сүхбаатар</option>
+                <option value="5">Баянхонгор</option>
+                <option value="6">Баян-Өлгий</option>
+                <option value="7">Говь-Алтай</option>
+                <option value="8">Өвөрхангай</option>
+                <option value="9">Дархан-Уул</option>
+                <option value="10">Дорноговь</option>
+                <option value="11">Дорнод</option>
+                <option value="12">Дундговь</option>
+                <option value="13">Завхан</option>
+                <option value="14">Сэлэнгэ</option>
+                <option value="15">Сүхбаатар</option>
+                <option value="16">Төв</option>
+                <option value="17">Увс</option>
+                <option value="18">Хентий</option>
+                <option value="19">Ховд</option>
+                <option value="20">Хэнтий</option>
+                <option value="21">Чингэлтэй</option>
+                <option value="22">Чойбалсан</option>
+                <option value="23">Эрдэнэт</option>
+                <option value="24">Өлзийт</option>
+                <option value="25">Өлгий</option>
+                <option value="26">Өндөрхаан</option>
+                <option value="27">Өрнөговь</option>
+            </select>
+
+            <label for="district">District:</label>
+            <select id="district" name="district">
+                <option value="">Сонгох...</option>
+                <option value="bayangol">Баянгол</option>
+                <option value="bayanzurkh">Баянзүрх</option>
+                <option value="chingeltei">Чингэлтэй</option>
+                <option value="khanuul">Хан-Уул</option>
+                <option value="songinokhairkhan">Сонгинөхайрхан</option>
+                <option value="sukhbaatar">Сүхбаатар</option>
+                <option value="bagakhangai">Багахангай</option>
+                <option value="nalaikh">Налайх</option>
+                <option value="bayankhoshuu">Баянхошуу</option>
+                <option value="baganuur">Багануур</option>
+            </select><br><br>
+
+            <label for="zip">ZIP Code:</label>
+            <input type="text" id="zip" name="zip" pattern="[0-9]{5}" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{8}" required><br><br>
+        </form>
+    </section>
+
+    <section class="Shipping-Method">
+        <h1>Shipping Method</h1>
+        <label for="Normal"><input type="radio" id="normal" name="options" value="option1">Normal Delivery</label><br><br>
+        <label for="Fast"><input type="radio" id="fast" name="options" value="option2"> Fast Delivery</label>
+    </section>
+
+    <section class="Payment-Method">
+        <h1>Payment Method</h1>
+        <label for="Internet-Bank"><input type="radio" id="Internet-Bank" name="options" value="option1">Internet bank</label><br><br>
+        <label for="Card"><input type="radio" id="Card" name="options" value="option2">Card</label>
+    </section>
+    
+    <section class="Order-Review">
+        <h1>Order Review</h1>
+        <p>Сагсанд 3 бараа байна.</p>
+        <hr>
+        <nav class="items">
+            <img src="" alt="">
+            <span class="product-name">Product Name</span><br>
+            <div class="quantity">
+                <button class="minus-btn" type="button">-</button>
+                <input class="quantity-input" type="number" value="1" min="1">
+                <button class="plus-btn" type="button">+</button>
+            </div>
+              
+            <span class="price">$19.99</span>
+        </nav>
+    </section>
+    
+    <section class="Discount-Code">
+        <h1>Discount Code</h1>
+        <label for="discount-code">Discount Code:</label>
+        <input type="text" id="discount-code" name="discount-code" placeholder="Enter your discount code">
+        
+    </section>
+
+    <section class="Billing-Summary">
+        <h1>Billing Summary</h1>
+        <table>
+            <tr>
+              <td>Subtotal</td>
+              <td>$20.00</td>
+            </tr>
+            <tr>
+              <td>Discount</td>
+              <td>$15.00</td>
+            </tr>
+            <tr>
+              <td>Warranty </td>
+              <td>$35.00</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>$3.50</td>
+            </tr>
+            <tr>
+              <td>Tax</td>
+              <td>$38.50</td>
+            </tr>
+        </table>
+
+        <span class="Subtotal">Grand Total: $19.99</span>
+        <br>
+        <label for="Order-Comment">Order Comment:</label>
+        <input type="text" id="Order-Comment" name="orderComment" placeholder="type here..."><br><br>
+
+        <input type="checkbox" id="privacy-checkbox" name="privacy-checkbox" required>
+        <label for="privacy-checkbox">I have read and agree to the Privacy & Terms Policy</label>
+        <br>
+        <button>Pay</button>
+    </section>
+
+    <footer>
+        <comscope-footer></comscope-footer>
+        <mobile-footer></mobile-footer>
+    </footer>
+</body>
+</html>
